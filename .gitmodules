@@ -2,6 +2,3 @@
 	path = Implementation/Components/Common
 	url = https://github.com/Eonil/Common
 
-[submodule "Implementation/Components/LLDB"]
-	path = Implementation/Components/LLDB
-	url = https://github.com/Eonil/LLDB
