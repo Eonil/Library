@@ -2,3 +2,6 @@
 	path = Implementation/Components/Common
 	url = https://github.com/Eonil/Common
 
+[submodule "Implementation/Components/Aliens"]
+	path = Implementation/Components/Aliens
+	url = https://github.com/Eonil/Aliens
