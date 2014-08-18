@@ -5,3 +5,9 @@
 [submodule "Aliens"]
 	path = Implementation/Components/Aliens
 	url = https://github.com/Eonil/Aliens
+[submodule "CommonRealtimeGameAlgorithms"]
+	path = Implementation/Components/CommonRealtimeGameAlgorithms
+	url = https://github.com/Eonil/CommonRealtimeGameAlgorithms
+[submodule "CocoaSQLite"]
+	path = Implementation/Components/CocoaSQLite
+	url = https://github.com/Eonil/CocoaSQLite
