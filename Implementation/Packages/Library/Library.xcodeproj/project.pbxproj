@@ -1,0 +1,1381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		459C6E4E19A26D560045550A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4D19A26D560045550A /* libsqlite3.dylib */; };
+		459C6E5019A26DA80045550A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4F19A26DA80045550A /* libc++.dylib */; };
+		459C6E5419A26DDE0045550A /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E5219A26DDE0045550A /* libc++abi.dylib */; };
+		45D29A1919A25CF100B46DD2 /* libEonilLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */; };
+		45D5139319A2694D00745D1E /* libCocoaSQLite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5132B19A2654600745D1E /* libCocoaSQLite3.a */; };
+		45D5139419A2694D00745D1E /* libEonilAliens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5130D19A2654600745D1E /* libEonilAliens.a */; };
+		45D5139519A2694D00745D1E /* libEonilAppKitSanitizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5131B19A2654600745D1E /* libEonilAppKitSanitizer.a */; };
+		45D5139619A2694D00745D1E /* libEonilFoundationExtras.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5135B19A2654600745D1E /* libEonilFoundationExtras.a */; };
+		45D5139719A2697A00745D1E /* libEonilCommonRealtimeGameAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5133D19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */; };
+		45FA7ED419A25C5A00E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
+		45FA7EDE19A25C5A00E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */; };
+		45FA7EE219A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7EE119A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m */; };
+		45FA7EE919A25C5A00E047F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7EE819A25C5A00E047F6 /* XCTest.framework */; };
+		45FA7EEA19A25C5A00E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
+		45FA7EED19A25C5A00E047F6 /* EonilLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */; };
+		45FA7EF319A25C5A00E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7EF119A25C5A00E047F6 /* InfoPlist.strings */; };
+		45FA7EF519A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7EF419A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m */; };
+		45FA7F0719A25C7700E047F6 /* Library___OSX_Static_Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7F0619A25C7700E047F6 /* Library___OSX_Static_Library.m */; };
+		45FA7F0D19A25C7700E047F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7EE819A25C5A00E047F6 /* XCTest.framework */; };
+		45FA7F0E19A25C7700E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
+		45FA7F1119A25C7700E047F6 /* libEonilLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */; };
+		45FA7F1719A25C7700E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7F1519A25C7700E047F6 /* InfoPlist.strings */; };
+		45FA7F1919A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */; };
+		45FA7F2119A25C8C00E047F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7F2019A25C8C00E047F6 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45D5130A19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 457B617F190A9C740021A442;
+			remoteInfo = "Aliens - iOS Static Library";
+		};
+		45D5130C19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 457B61AA190A9CA20021A442;
+			remoteInfo = "Aliens - OSX Static Library";
+		};
+		45D5130E19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45482641196C20BA00FF1D3E;
+			remoteInfo = "Aliens - OSX Dynamic Framework";
+		};
+		45D5131019A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45165A90190C832B0066177B;
+			remoteInfo = "Aliens - Test - OSX";
+		};
+		45D5131619A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450AC2541949AB1B005B7904;
+			remoteInfo = "AppKitSanitizer - OSX - Dynamic Framework";
+		};
+		45D5131819A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450AC26B1949AB1B005B7904;
+			remoteInfo = "AppKitSanitizer - OSX - Dynamic Framework - Test";
+		};
+		45D5131A19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B4118E19A25F5800984650;
+			remoteInfo = "AppKitSanitizer - OSX - Static Library";
+		};
+		45D5131C19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B4119A19A25F5800984650;
+			remoteInfo = "AppKitSanitizer - OSX - Static LibraryTests";
+		};
+		45D5132619A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4518C1FD14CBD0CE00EF0620;
+			remoteInfo = "CocoaSQLite3 - iOS Static Library";
+		};
+		45D5132819A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45F13E861969D0F500F7B630;
+			remoteInfo = "CocoaSQLite3 - OSX Framework";
+		};
+		45D5132A19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45E68B311683342700DAE96E;
+			remoteInfo = "OSX Static Library";
+		};
+		45D5132C19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4572DA5615BB1D3D0091442D;
+			remoteInfo = "OSX Dynamic Library";
+		};
+		45D5132E19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45CB651014CBF609004EF17F;
+			remoteInfo = "iOS Static Library (Test)";
+		};
+		45D5133019A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4572DA6815BB1D3D0091442D;
+			remoteInfo = "Mac OS X Dynamic Library (Tests)";
+		};
+		45D5133219A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 452740A215D6974500258461;
+			remoteInfo = "Manual Test";
+		};
+		45D5133419A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 452740D715D69DBE00258461;
+			remoteInfo = "Manual Test for Mac OS X";
+		};
+		45D5133A19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45FC6FAC190EB7290018BC59;
+			remoteInfo = "CommonRealtimeGameAlgorithms - iOS";
+		};
+		45D5133C19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45FC7001190EB7AF0018BC59;
+			remoteInfo = "CommonRealtimeGameAlgorithms - OSX";
+		};
+		45D5133E19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 450EF2A6190EBD6E00FC3FE3;
+			remoteInfo = "CommonRealtimeGameAlgorithms - Tester - OSX";
+		};
+		45D5134019A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 455B126D19106740007997D8;
+			remoteInfo = "CommonRealtimeGameAlgorithms - Tester - iOS";
+		};
+		45D5134D19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4542F3CE19971BB800F95720;
+			remoteInfo = "UIKitSanitizer - iOS Static Library";
+		};
+		45D5134F19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4542F3DB19971BB800F95720;
+			remoteInfo = UIKitSanitizerTests;
+		};
+		45D5135619A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 451240CA195E9E0400B6198A;
+			remoteInfo = "FoundationExtras - OSX - Dynamic Framework";
+		};
+		45D5135819A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4512411B195E9F3400B6198A;
+			remoteInfo = "FoundationExtras - iOS - Static Library";
+		};
+		45D5135A19A2654600745D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B4115D19A25E8800984650;
+			remoteInfo = "FoundationExtras - OSX - Static Library";
+		};
+		45FA7EEB19A25C5A00E047F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FA7EC519A25C4400E047F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FA7ECF19A25C5A00E047F6;
+			remoteInfo = "Library - OSX Dynamic Framework";
+		};
+		45FA7F0F19A25C7700E047F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FA7EC519A25C4400E047F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FA7EFF19A25C7700E047F6;
+			remoteInfo = "Library - OSX Static Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		459C6E4D19A26D560045550A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		459C6E4F19A26DA80045550A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		459C6E5119A26DDE0045550A /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		459C6E5219A26DDE0045550A /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaSQLite3.xcodeproj; path = ../../Components/CocoaSQLite/CocoaSQLite3.xcodeproj; sourceTree = "<group>"; };
+		45D512ED19A264B200745D1E /* Aliens.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Aliens.xcodeproj; path = ../../Components/Aliens/Aliens.xcodeproj; sourceTree = "<group>"; };
+		45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonRealtimeGameAlgorithms.xcodeproj; path = ../../Components/CommonRealtimeGameAlgorithms/CommonRealtimeGameAlgorithms.xcodeproj; sourceTree = "<group>"; };
+		45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CommonStuffsForC++.xcodeproj"; path = "../../Components/Common/CommonStuffsForC++/CommonStuffsForC++.xcodeproj"; sourceTree = "<group>"; };
+		45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKitSanitizer.xcodeproj; path = ../../Components/Common/UIKitSanitizer/UIKitSanitizer.xcodeproj; sourceTree = "<group>"; };
+		45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppKitSanitizer.xcodeproj; path = ../../Components/Common/AppKitSanitizer/AppKitSanitizer.xcodeproj; sourceTree = "<group>"; };
+		45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoundationExtras.xcodeproj; path = ../../Components/Common/FoundationExtras/FoundationExtras.xcodeproj; sourceTree = "<group>"; };
+		45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7ED319A25C5A00E047F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		45FA7ED619A25C5A00E047F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45FA7ED819A25C5A00E047F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		45FA7EDB19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Dynamic Framework-Info.plist"; sourceTree = "<group>"; };
+		45FA7EDD19A25C5A00E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45FA7EDF19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library - OSX Dynamic Framework-Prefix.pch"; sourceTree = "<group>"; };
+		45FA7EE019A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library___OSX_Dynamic_Framework.h"; sourceTree = "<group>"; };
+		45FA7EE119A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Dynamic_Framework.m"; sourceTree = "<group>"; };
+		45FA7EE719A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library - OSX Dynamic FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7EE819A25C5A00E047F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45FA7EF019A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Dynamic FrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		45FA7EF219A25C5A00E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45FA7EF419A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Dynamic_FrameworkTests.m"; sourceTree = "<group>"; };
+		45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7F0419A25C7700E047F6 /* Library - OSX Static Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library - OSX Static Library-Prefix.pch"; sourceTree = "<group>"; };
+		45FA7F0519A25C7700E047F6 /* Library___OSX_Static_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library___OSX_Static_Library.h"; sourceTree = "<group>"; };
+		45FA7F0619A25C7700E047F6 /* Library___OSX_Static_Library.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Static_Library.m"; sourceTree = "<group>"; };
+		45FA7F0C19A25C7700E047F6 /* Library - OSX Static LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library - OSX Static LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7F1419A25C7700E047F6 /* Library - OSX Static LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Static LibraryTests-Info.plist"; sourceTree = "<group>"; };
+		45FA7F1619A25C7700E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Static_LibraryTests.m"; sourceTree = "<group>"; };
+		45FA7F2019A25C8C00E047F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45FA7ECC19A25C5A00E047F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459C6E5419A26DDE0045550A /* libc++abi.dylib in Frameworks */,
+				459C6E5019A26DA80045550A /* libc++.dylib in Frameworks */,
+				459C6E4E19A26D560045550A /* libsqlite3.dylib in Frameworks */,
+				45D29A1919A25CF100B46DD2 /* libEonilLibrary.a in Frameworks */,
+				45FA7ED419A25C5A00E047F6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7EE419A25C5A00E047F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7EEA19A25C5A00E047F6 /* Cocoa.framework in Frameworks */,
+				45FA7EE919A25C5A00E047F6 /* XCTest.framework in Frameworks */,
+				45FA7EED19A25C5A00E047F6 /* EonilLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7EFD19A25C7700E047F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D5139619A2694D00745D1E /* libEonilFoundationExtras.a in Frameworks */,
+				45D5139519A2694D00745D1E /* libEonilAppKitSanitizer.a in Frameworks */,
+				45D5139719A2697A00745D1E /* libEonilCommonRealtimeGameAlgorithms.a in Frameworks */,
+				45D5139419A2694D00745D1E /* libEonilAliens.a in Frameworks */,
+				45D5139319A2694D00745D1E /* libCocoaSQLite3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7F0919A25C7700E047F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7F1119A25C7700E047F6 /* libEonilLibrary.a in Frameworks */,
+				45FA7F0E19A25C7700E047F6 /* Cocoa.framework in Frameworks */,
+				45FA7F0D19A25C7700E047F6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45D512F419A2650100745D1E /* (second layer components) */ = {
+			isa = PBXGroup;
+			children = (
+				45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */,
+				45D512ED19A264B200745D1E /* Aliens.xcodeproj */,
+				45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */,
+				45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */,
+				45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */,
+				45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */,
+				45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */,
+			);
+			name = "(second layer components)";
+			sourceTree = "<group>";
+		};
+		45D512FA19A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D5132719A2654600745D1E /* libCocoaSQLite3.a */,
+				45D5132919A2654600745D1E /* CocoaSQLite3.framework */,
+				45D5132B19A2654600745D1E /* libCocoaSQLite3.a */,
+				45D5132D19A2654600745D1E /* CocoaSQLite3.dylib */,
+				45D5132F19A2654600745D1E /* SQLite-Test.octest */,
+				45D5133119A2654600745D1E /* Mac OS X Dynamic Library (Tests).octest */,
+				45D5133319A2654600745D1E /* Manual Test.app */,
+				45D5133519A2654600745D1E /* Manual Test for Mac OS X */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D512FC19A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D5130B19A2654600745D1E /* libEonilAliens.a */,
+				45D5130D19A2654600745D1E /* libEonilAliens.a */,
+				45D5130F19A2654600745D1E /* EonilAliens.framework */,
+				45D5131119A2654600745D1E /* Aliens - Test - OSX */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D512FE19A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D5133B19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */,
+				45D5133D19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */,
+				45D5133F19A2654600745D1E /* CommonRealtimeGameAlgorithms - Tester - OSX */,
+				45D5134119A2654600745D1E /* CommonRealtimeGameAlgorithms - Tester - iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D5130019A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D5130219A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D5134E19A2654600745D1E /* libUIKitSanitizer.a */,
+				45D5135019A2654600745D1E /* UIKitSanitizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D5130419A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D5131719A2654600745D1E /* EonilAppKitSanitizer.framework */,
+				45D5131919A2654600745D1E /* AppKitSanitizer - OSX - Dynamic Framework - Test.xctest */,
+				45D5131B19A2654600745D1E /* libEonilAppKitSanitizer.a */,
+				45D5131D19A2654600745D1E /* AppKitSanitizer - OSX - Static LibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45D5135119A2654600745D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D5135719A2654600745D1E /* EonilFoundationExtras.framework */,
+				45D5135919A2654600745D1E /* libEonilFoundationExtras.a */,
+				45D5135B19A2654600745D1E /* libEonilFoundationExtras.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FA7EC419A25C4400E047F6 = {
+			isa = PBXGroup;
+			children = (
+				45FA7F2019A25C8C00E047F6 /* README.md */,
+				45FA7ED219A25C5A00E047F6 /* (first layer components) */,
+				45D512F419A2650100745D1E /* (second layer components) */,
+				45FA7ED919A25C5A00E047F6 /* Library - OSX Dynamic Framework */,
+				45FA7EEE19A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */,
+				45FA7F0219A25C7700E047F6 /* Library - OSX Static Library */,
+				45FA7F1219A25C7700E047F6 /* Library - OSX Static LibraryTests */,
+				45FA7ED119A25C5A00E047F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45FA7ED119A25C5A00E047F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */,
+				45FA7EE719A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests.xctest */,
+				45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */,
+				45FA7F0C19A25C7700E047F6 /* Library - OSX Static LibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45FA7ED219A25C5A00E047F6 /* (first layer components) */ = {
+			isa = PBXGroup;
+			children = (
+				459C6E5119A26DDE0045550A /* libc++.1.dylib */,
+				459C6E5219A26DDE0045550A /* libc++abi.dylib */,
+				459C6E4F19A26DA80045550A /* libc++.dylib */,
+				459C6E4D19A26D560045550A /* libsqlite3.dylib */,
+				45FA7ED319A25C5A00E047F6 /* Cocoa.framework */,
+				45FA7ED619A25C5A00E047F6 /* Foundation.framework */,
+				45FA7ED819A25C5A00E047F6 /* AppKit.framework */,
+				45FA7ED519A25C5A00E047F6 /* Other Frameworks */,
+			);
+			name = "(first layer components)";
+			sourceTree = "<group>";
+		};
+		45FA7ED519A25C5A00E047F6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7EE819A25C5A00E047F6 /* XCTest.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		45FA7ED919A25C5A00E047F6 /* Library - OSX Dynamic Framework */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7EE019A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.h */,
+				45FA7EE119A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m */,
+				45FA7EDA19A25C5A00E047F6 /* Supporting Files */,
+			);
+			path = "Library - OSX Dynamic Framework";
+			sourceTree = "<group>";
+		};
+		45FA7EDA19A25C5A00E047F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7EDB19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Info.plist */,
+				45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */,
+				45FA7EDF19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45FA7EEE19A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7EF419A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m */,
+				45FA7EEF19A25C5A00E047F6 /* Supporting Files */,
+			);
+			path = "Library - OSX Dynamic FrameworkTests";
+			sourceTree = "<group>";
+		};
+		45FA7EEF19A25C5A00E047F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7EF019A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests-Info.plist */,
+				45FA7EF119A25C5A00E047F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45FA7F0219A25C7700E047F6 /* Library - OSX Static Library */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7F0519A25C7700E047F6 /* Library___OSX_Static_Library.h */,
+				45FA7F0619A25C7700E047F6 /* Library___OSX_Static_Library.m */,
+				45FA7F0319A25C7700E047F6 /* Supporting Files */,
+			);
+			path = "Library - OSX Static Library";
+			sourceTree = "<group>";
+		};
+		45FA7F0319A25C7700E047F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7F0419A25C7700E047F6 /* Library - OSX Static Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45FA7F1219A25C7700E047F6 /* Library - OSX Static LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */,
+				45FA7F1319A25C7700E047F6 /* Supporting Files */,
+			);
+			path = "Library - OSX Static LibraryTests";
+			sourceTree = "<group>";
+		};
+		45FA7F1319A25C7700E047F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FA7F1419A25C7700E047F6 /* Library - OSX Static LibraryTests-Info.plist */,
+				45FA7F1519A25C7700E047F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45FA7ECD19A25C5A00E047F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7EFE19A25C7700E047F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FA7EF619A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic Framework" */;
+			buildPhases = (
+				45FA7ECB19A25C5A00E047F6 /* Sources */,
+				45FA7ECC19A25C5A00E047F6 /* Frameworks */,
+				45FA7ECD19A25C5A00E047F6 /* Headers */,
+				45FA7ECE19A25C5A00E047F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Library - OSX Dynamic Framework";
+			productName = "Library - OSX Dynamic Framework";
+			productReference = 45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45FA7EE619A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FA7EF919A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic FrameworkTests" */;
+			buildPhases = (
+				45FA7EE319A25C5A00E047F6 /* Sources */,
+				45FA7EE419A25C5A00E047F6 /* Frameworks */,
+				45FA7EE519A25C5A00E047F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FA7EEC19A25C5A00E047F6 /* PBXTargetDependency */,
+			);
+			name = "Library - OSX Dynamic FrameworkTests";
+			productName = "Library - OSX Dynamic FrameworkTests";
+			productReference = 45FA7EE719A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static Library" */;
+			buildPhases = (
+				45FA7EFC19A25C7700E047F6 /* Sources */,
+				45FA7EFD19A25C7700E047F6 /* Frameworks */,
+				45FA7EFE19A25C7700E047F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Library - OSX Static Library";
+			productName = "Library - OSX Static Library";
+			productReference = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45FA7F0B19A25C7700E047F6 /* Library - OSX Static LibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FA7F1D19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static LibraryTests" */;
+			buildPhases = (
+				45FA7F0819A25C7700E047F6 /* Sources */,
+				45FA7F0919A25C7700E047F6 /* Frameworks */,
+				45FA7F0A19A25C7700E047F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FA7F1019A25C7700E047F6 /* PBXTargetDependency */,
+			);
+			name = "Library - OSX Static LibraryTests";
+			productName = "Library - OSX Static LibraryTests";
+			productReference = 45FA7F0C19A25C7700E047F6 /* Library - OSX Static LibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45FA7EC519A25C4400E047F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					45FA7EE619A25C5A00E047F6 = {
+						TestTargetID = 45FA7ECF19A25C5A00E047F6;
+					};
+					45FA7F0B19A25C7700E047F6 = {
+						TestTargetID = 45FA7ECF19A25C5A00E047F6;
+					};
+				};
+			};
+			buildConfigurationList = 45FA7EC819A25C4400E047F6 /* Build configuration list for PBXProject "Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45FA7EC419A25C4400E047F6;
+			productRefGroup = 45FA7ED119A25C5A00E047F6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 45D512FC19A2654600745D1E /* Products */;
+					ProjectRef = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
+				},
+				{
+					ProductGroup = 45D5130419A2654600745D1E /* Products */;
+					ProjectRef = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
+				},
+				{
+					ProductGroup = 45D512FA19A2654600745D1E /* Products */;
+					ProjectRef = 45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */;
+				},
+				{
+					ProductGroup = 45D512FE19A2654600745D1E /* Products */;
+					ProjectRef = 45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */;
+				},
+				{
+					ProductGroup = 45D5130019A2654600745D1E /* Products */;
+					ProjectRef = 45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */;
+				},
+				{
+					ProductGroup = 45D5135119A2654600745D1E /* Products */;
+					ProjectRef = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
+				},
+				{
+					ProductGroup = 45D5130219A2654600745D1E /* Products */;
+					ProjectRef = 45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */,
+				45FA7EE619A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */,
+				45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */,
+				45FA7F0B19A25C7700E047F6 /* Library - OSX Static LibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		45D5130B19A2654600745D1E /* libEonilAliens.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilAliens.a;
+			remoteRef = 45D5130A19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5130D19A2654600745D1E /* libEonilAliens.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilAliens.a;
+			remoteRef = 45D5130C19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5130F19A2654600745D1E /* EonilAliens.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EonilAliens.framework;
+			remoteRef = 45D5130E19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5131119A2654600745D1E /* Aliens - Test - OSX */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Aliens - Test - OSX";
+			remoteRef = 45D5131019A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5131719A2654600745D1E /* EonilAppKitSanitizer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EonilAppKitSanitizer.framework;
+			remoteRef = 45D5131619A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5131919A2654600745D1E /* AppKitSanitizer - OSX - Dynamic Framework - Test.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AppKitSanitizer - OSX - Dynamic Framework - Test.xctest";
+			remoteRef = 45D5131819A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5131B19A2654600745D1E /* libEonilAppKitSanitizer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilAppKitSanitizer.a;
+			remoteRef = 45D5131A19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5131D19A2654600745D1E /* AppKitSanitizer - OSX - Static LibraryTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AppKitSanitizer - OSX - Static LibraryTests.xctest";
+			remoteRef = 45D5131C19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5132719A2654600745D1E /* libCocoaSQLite3.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaSQLite3.a;
+			remoteRef = 45D5132619A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5132919A2654600745D1E /* CocoaSQLite3.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaSQLite3.framework;
+			remoteRef = 45D5132819A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5132B19A2654600745D1E /* libCocoaSQLite3.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaSQLite3.a;
+			remoteRef = 45D5132A19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5132D19A2654600745D1E /* CocoaSQLite3.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = CocoaSQLite3.dylib;
+			remoteRef = 45D5132C19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5132F19A2654600745D1E /* SQLite-Test.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLite-Test.octest";
+			remoteRef = 45D5132E19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5133119A2654600745D1E /* Mac OS X Dynamic Library (Tests).octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mac OS X Dynamic Library (Tests).octest";
+			remoteRef = 45D5133019A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5133319A2654600745D1E /* Manual Test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Manual Test.app";
+			remoteRef = 45D5133219A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5133519A2654600745D1E /* Manual Test for Mac OS X */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "Manual Test for Mac OS X";
+			remoteRef = 45D5133419A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5133B19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilCommonRealtimeGameAlgorithms.a;
+			remoteRef = 45D5133A19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5133D19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilCommonRealtimeGameAlgorithms.a;
+			remoteRef = 45D5133C19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5133F19A2654600745D1E /* CommonRealtimeGameAlgorithms - Tester - OSX */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "CommonRealtimeGameAlgorithms - Tester - OSX";
+			remoteRef = 45D5133E19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5134119A2654600745D1E /* CommonRealtimeGameAlgorithms - Tester - iOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CommonRealtimeGameAlgorithms - Tester - iOS.app";
+			remoteRef = 45D5134019A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5134E19A2654600745D1E /* libUIKitSanitizer.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUIKitSanitizer.a;
+			remoteRef = 45D5134D19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5135019A2654600745D1E /* UIKitSanitizerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UIKitSanitizerTests.xctest;
+			remoteRef = 45D5134F19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5135719A2654600745D1E /* EonilFoundationExtras.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = EonilFoundationExtras.framework;
+			remoteRef = 45D5135619A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5135919A2654600745D1E /* libEonilFoundationExtras.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilFoundationExtras.a;
+			remoteRef = 45D5135819A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45D5135B19A2654600745D1E /* libEonilFoundationExtras.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEonilFoundationExtras.a;
+			remoteRef = 45D5135A19A2654600745D1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45FA7ECE19A25C5A00E047F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7F2119A25C8C00E047F6 /* README.md in Resources */,
+				45FA7EDE19A25C5A00E047F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7EE519A25C5A00E047F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7EF319A25C5A00E047F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7F0A19A25C7700E047F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7F1719A25C7700E047F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45FA7ECB19A25C5A00E047F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7EE219A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7EE319A25C5A00E047F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7EF519A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7EFC19A25C7700E047F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7F0719A25C7700E047F6 /* Library___OSX_Static_Library.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FA7F0819A25C7700E047F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FA7F1919A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45FA7EEC19A25C5A00E047F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */;
+			targetProxy = 45FA7EEB19A25C5A00E047F6 /* PBXContainerItemProxy */;
+		};
+		45FA7F1019A25C7700E047F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */;
+			targetProxy = 45FA7F0F19A25C7700E047F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FA7EDD19A25C5A00E047F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45FA7EF119A25C5A00E047F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FA7EF219A25C5A00E047F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45FA7F1519A25C7700E047F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45FA7F1619A25C7700E047F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45FA7EC919A25C4400E047F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Eonil$PROJECT_NAME;
+			};
+			name = Debug;
+		};
+		45FA7ECA19A25C4400E047F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				PRODUCT_NAME = Eonil$PROJECT_NAME;
+			};
+			name = Release;
+		};
+		45FA7EF719A25C5A00E047F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = " -all_load";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		45FA7EF819A25C5A00E047F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = " -all_load";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		45FA7EFA19A25C5A00E047F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library - OSX Dynamic Framework.framework/Versions/A/Library - OSX Dynamic Framework";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Library - OSX Dynamic FrameworkTests/Library - OSX Dynamic FrameworkTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45FA7EFB19A25C5A00E047F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library - OSX Dynamic Framework.framework/Versions/A/Library - OSX Dynamic Framework";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Library - OSX Dynamic FrameworkTests/Library - OSX Dynamic FrameworkTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		45FA7F1B19A25C7700E047F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Static Library/Library - OSX Static Library-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Eonil/Workshop/Development/Library/Implementation/Components/Aliens/build/Debug,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45FA7F1C19A25C7700E047F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Static Library/Library - OSX Static Library-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Eonil/Workshop/Development/Library/Implementation/Components/Aliens/build/Debug,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45FA7F1E19A25C7700E047F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library - OSX Dynamic Framework.framework/Versions/A/Library - OSX Dynamic Framework";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Static Library/Library - OSX Static Library-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Library - OSX Static LibraryTests/Library - OSX Static LibraryTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45FA7F1F19A25C7700E047F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Library - OSX Dynamic Framework.framework/Versions/A/Library - OSX Dynamic Framework";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Library - OSX Static Library/Library - OSX Static Library-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Library - OSX Static LibraryTests/Library - OSX Static LibraryTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45FA7EC819A25C4400E047F6 /* Build configuration list for PBXProject "Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FA7EC919A25C4400E047F6 /* Debug */,
+				45FA7ECA19A25C4400E047F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FA7EF619A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FA7EF719A25C5A00E047F6 /* Debug */,
+				45FA7EF819A25C5A00E047F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FA7EF919A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FA7EFA19A25C5A00E047F6 /* Debug */,
+				45FA7EFB19A25C5A00E047F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FA7F1B19A25C7700E047F6 /* Debug */,
+				45FA7F1C19A25C7700E047F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FA7F1D19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static LibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FA7F1E19A25C7700E047F6 /* Debug */,
+				45FA7F1F19A25C7700E047F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45FA7EC519A25C4400E047F6 /* Project object */;
+}

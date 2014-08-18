@@ -21,3 +21,13 @@ composite them to build your own *llight-weight* version
 compositions.
 
 
+
+
+
+
+
+Note
+----
+Do not place any large binary. Currently I have no good idea 
+how to handle those large binaries. Then, prebuilt LLDB library
+has been excluded.

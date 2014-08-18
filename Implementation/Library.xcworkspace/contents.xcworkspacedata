@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:Components"
+      name = "Components">
+      <FileRef
+         location = "group:CocoaSQLite/CocoaSQLite3.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Aliens/Aliens.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CommonRealtimeGameAlgorithms/CommonRealtimeGameAlgorithms.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Common/CommonStuffsForC++/CommonStuffsForC++.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Common/UIKitSanitizer/UIKitSanitizer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Common/AppKitSanitizer/AppKitSanitizer.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Common/FoundationExtras/FoundationExtras.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Packages"
+      name = "Packages">
+      <FileRef
+         location = "group:Library/Library.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
