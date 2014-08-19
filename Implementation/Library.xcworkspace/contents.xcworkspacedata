@@ -33,4 +33,11 @@
          location = "group:Library/Library.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:Tools"
+      name = "Tools">
+      <FileRef
+         location = "group:HierarchicalHeaderCopier/HierarchicalHeaderCopier.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

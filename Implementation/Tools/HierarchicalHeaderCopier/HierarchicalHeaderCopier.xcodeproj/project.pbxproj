@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4545E7B619A321D400B6C0C2 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4545E7B519A321D400B6C0C2 /* Functions.m */; };
+		4545E7DD19A3230B00B6C0C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0DCEC19A3145E008BECBF /* Foundation.framework */; };
+		4545E7E019A3230B00B6C0C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4545E7DF19A3230B00B6C0C2 /* main.m */; };
+		4545E7EF19A325E300B6C0C2 /* DummyData in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45B0DD2119A314E1008BECBF /* DummyData */; };
+		4545E7F719A32A6E00B6C0C2 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4545E7B519A321D400B6C0C2 /* Functions.m */; };
+		45B0DD3719A3150D008BECBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0DCEC19A3145E008BECBF /* Foundation.framework */; };
+		45B0DD3A19A3150D008BECBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B0DD3919A3150D008BECBF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4545E7EE19A325DE00B6C0C2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Test;
+			dstSubfolderSpec = 6;
+			files = (
+				4545E7EF19A325E300B6C0C2 /* DummyData in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4545E7B519A321D400B6C0C2 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		4545E7B719A321DE00B6C0C2 /* Functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		4545E7DC19A3230B00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4545E7DF19A3230B00B6C0C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4545E7E219A3230B00B6C0C2 /* RunningTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RunningTester-Prefix.pch"; sourceTree = "<group>"; };
+		45B0DCEC19A3145E008BECBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45B0DD2119A314E1008BECBF /* DummyData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DummyData; sourceTree = "<group>"; };
+		45B0DD3619A3150D008BECBF /* HierarchicalHeaderCopier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HierarchicalHeaderCopier; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B0DD3919A3150D008BECBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45B0DD3C19A3150D008BECBF /* HierarchicalHeaderCopier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HierarchicalHeaderCopier-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4545E7D919A3230B00B6C0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4545E7DD19A3230B00B6C0C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B0DD3319A3150D008BECBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0DD3719A3150D008BECBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4545E7DE19A3230B00B6C0C2 /* RunningTester */ = {
+			isa = PBXGroup;
+			children = (
+				4545E7DF19A3230B00B6C0C2 /* main.m */,
+				4545E7E119A3230B00B6C0C2 /* Supporting Files */,
+			);
+			path = RunningTester;
+			sourceTree = "<group>";
+		};
+		4545E7E119A3230B00B6C0C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4545E7E219A3230B00B6C0C2 /* RunningTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45B0DCDE19A3143B008BECBF = {
+			isa = PBXGroup;
+			children = (
+				45B0DD3819A3150D008BECBF /* HierarchicalHeaderCopier */,
+				45B0DD1C19A314DB008BECBF /* Test */,
+				4545E7DE19A3230B00B6C0C2 /* RunningTester */,
+				45B0DCEB19A3145E008BECBF /* Frameworks */,
+				45B0DCEA19A3145E008BECBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45B0DCEA19A3145E008BECBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B0DD3619A3150D008BECBF /* HierarchicalHeaderCopier */,
+				4545E7DC19A3230B00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45B0DCEB19A3145E008BECBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45B0DCEC19A3145E008BECBF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45B0DD1C19A314DB008BECBF /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				45B0DD2119A314E1008BECBF /* DummyData */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		45B0DD3819A3150D008BECBF /* HierarchicalHeaderCopier */ = {
+			isa = PBXGroup;
+			children = (
+				4545E7B719A321DE00B6C0C2 /* Functions.h */,
+				4545E7B519A321D400B6C0C2 /* Functions.m */,
+				45B0DD3919A3150D008BECBF /* main.m */,
+				45B0DD3B19A3150D008BECBF /* Supporting Files */,
+			);
+			path = HierarchicalHeaderCopier;
+			sourceTree = "<group>";
+		};
+		45B0DD3B19A3150D008BECBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45B0DD3C19A3150D008BECBF /* HierarchicalHeaderCopier-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4545E7DB19A3230B00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4545E7E519A3230B00B6C0C2 /* Build configuration list for PBXNativeTarget "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester" */;
+			buildPhases = (
+				4545E7D819A3230B00B6C0C2 /* Sources */,
+				4545E7D919A3230B00B6C0C2 /* Frameworks */,
+				4545E7F019A325FE00B6C0C2 /* Run Script - Delete Any Existing Test Data */,
+				4545E7EE19A325DE00B6C0C2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester";
+			productName = RunningTester;
+			productReference = 4545E7DC19A3230B00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */;
+			productType = "com.apple.product-type.tool";
+		};
+		45B0DD3519A3150D008BECBF /* HierarchicalHeaderCopier - OSX - Command Line Executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B0DD3F19A3150D008BECBF /* Build configuration list for PBXNativeTarget "HierarchicalHeaderCopier - OSX - Command Line Executable" */;
+			buildPhases = (
+				45B0DD3219A3150D008BECBF /* Sources */,
+				45B0DD3319A3150D008BECBF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HierarchicalHeaderCopier - OSX - Command Line Executable";
+			productName = HierarchicalHeaderCopier;
+			productReference = 45B0DD3619A3150D008BECBF /* HierarchicalHeaderCopier */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45B0DCDF19A3143B008BECBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 45B0DCE219A3143B008BECBF /* Build configuration list for PBXProject "HierarchicalHeaderCopier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45B0DCDE19A3143B008BECBF;
+			productRefGroup = 45B0DCEA19A3145E008BECBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45B0DD3519A3150D008BECBF /* HierarchicalHeaderCopier - OSX - Command Line Executable */,
+				4545E7DB19A3230B00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4545E7F019A325FE00B6C0C2 /* Run Script - Delete Any Existing Test Data */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Delete Any Existing Test Data";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$BUILT_PRODUCTS_DIR\"\nrm -rf ./Test";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4545E7D819A3230B00B6C0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4545E7F719A32A6E00B6C0C2 /* Functions.m in Sources */,
+				4545E7E019A3230B00B6C0C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B0DD3219A3150D008BECBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B0DD3A19A3150D008BECBF /* main.m in Sources */,
+				4545E7B619A321D400B6C0C2 /* Functions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4545E7E619A3230B00B6C0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunningTester/RunningTester-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4545E7E719A3230B00B6C0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunningTester/RunningTester-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4545E7F419A329D700B6C0C2 /* Debug/Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = $PROJECT_NAME;
+			};
+			name = Debug/Test;
+		};
+		4545E7F519A329D700B6C0C2 /* Debug/Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HierarchicalHeaderCopier/HierarchicalHeaderCopier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug/Test;
+		};
+		4545E7F619A329D700B6C0C2 /* Debug/Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RunningTester/RunningTester-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug/Test;
+		};
+		45B0DCE319A3143B008BECBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = $PROJECT_NAME;
+			};
+			name = Debug;
+		};
+		45B0DCE419A3143B008BECBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = $PROJECT_NAME;
+			};
+			name = Release;
+		};
+		45B0DD4019A3150D008BECBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HierarchicalHeaderCopier/HierarchicalHeaderCopier-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45B0DD4119A3150D008BECBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HierarchicalHeaderCopier/HierarchicalHeaderCopier-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4545E7E519A3230B00B6C0C2 /* Build configuration list for PBXNativeTarget "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4545E7E619A3230B00B6C0C2 /* Debug */,
+				4545E7F619A329D700B6C0C2 /* Debug/Test */,
+				4545E7E719A3230B00B6C0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B0DCE219A3143B008BECBF /* Build configuration list for PBXProject "HierarchicalHeaderCopier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B0DCE319A3143B008BECBF /* Debug */,
+				4545E7F419A329D700B6C0C2 /* Debug/Test */,
+				45B0DCE419A3143B008BECBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B0DD3F19A3150D008BECBF /* Build configuration list for PBXNativeTarget "HierarchicalHeaderCopier - OSX - Command Line Executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B0DD4019A3150D008BECBF /* Debug */,
+				4545E7F519A329D700B6C0C2 /* Debug/Test */,
+				45B0DD4119A3150D008BECBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45B0DCDF19A3143B008BECBF /* Project object */;
+}

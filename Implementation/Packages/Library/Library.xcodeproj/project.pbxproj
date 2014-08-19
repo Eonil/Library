@@ -34,6 +34,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4545E7AA19A3215F00B6C0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45B0DD3619A3150D008BECBF;
+			remoteInfo = "HierarchicalHeaderCopier - OSX - Command Line Executable";
+		};
+		4545E7B119A3218100B6C0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B0DD3519A3150D008BECBF;
+			remoteInfo = "HierarchicalHeaderCopier - OSX - Command Line Executable";
+		};
+		4545E7B319A321A300B6C0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FA7EC519A25C4400E047F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FA7EFF19A25C7700E047F6;
+			remoteInfo = "Library - OSX Static Library";
+		};
+		4545E7FA19A32D6300B6C0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4545E7DC19A3230B00B6C0C2;
+			remoteInfo = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester";
+		};
 		45D5130A19A2654600745D1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
@@ -226,6 +254,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HierarchicalHeaderCopier.xcodeproj; path = ../../Tools/HierarchicalHeaderCopier/HierarchicalHeaderCopier.xcodeproj; sourceTree = "<group>"; };
+		4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */ = {isa = PBXFileReference; lastKnownFileType = text; path = CopyHeaders.bash; sourceTree = "<group>"; };
 		459C6E4D19A26D560045550A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		459C6E4F19A26DA80045550A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		459C6E5119A26DDE0045550A /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
@@ -310,16 +340,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4545E79019A3215F00B6C0C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4545E7AB19A3215F00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable */,
+				4545E7FB19A32D6300B6C0C2 /* RunningTester */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4545E7AE19A3216C00B6C0C2 /* (second layer tools) */ = {
+			isa = PBXGroup;
+			children = (
+				4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */,
+			);
+			name = "(second layer tools)";
+			sourceTree = "<group>";
+		};
 		45D512F419A2650100745D1E /* (second layer components) */ = {
 			isa = PBXGroup;
 			children = (
-				45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */,
-				45D512ED19A264B200745D1E /* Aliens.xcodeproj */,
-				45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */,
-				45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */,
-				45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */,
-				45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */,
 				45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */,
+				45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */,
+				45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */,
+				45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */,
+				45D512EE19A264B200745D1E /* CommonRealtimeGameAlgorithms.xcodeproj */,
+				45D512ED19A264B200745D1E /* Aliens.xcodeproj */,
+				45D512EC19A264B200745D1E /* CocoaSQLite3.xcodeproj */,
 			);
 			name = "(second layer components)";
 			sourceTree = "<group>";
@@ -402,8 +449,10 @@
 			isa = PBXGroup;
 			children = (
 				45FA7F2019A25C8C00E047F6 /* README.md */,
+				4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */,
 				45FA7ED219A25C5A00E047F6 /* (first layer components) */,
 				45D512F419A2650100745D1E /* (second layer components) */,
+				4545E7AE19A3216C00B6C0C2 /* (second layer tools) */,
 				45FA7ED919A25C5A00E047F6 /* Library - OSX Dynamic Framework */,
 				45FA7EEE19A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */,
 				45FA7F0219A25C7700E047F6 /* Library - OSX Static Library */,
@@ -552,6 +601,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4545E7B419A321A300B6C0C2 /* PBXTargetDependency */,
 			);
 			name = "Library - OSX Dynamic Framework";
 			productName = "Library - OSX Dynamic Framework";
@@ -583,10 +633,12 @@
 				45FA7EFC19A25C7700E047F6 /* Sources */,
 				45FA7EFD19A25C7700E047F6 /* Frameworks */,
 				45FA7EFE19A25C7700E047F6 /* Headers */,
+				4545E7F819A32D6300B6C0C2 /* Run Script (Copy Headers) */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4545E7B219A3218100B6C0C2 /* PBXTargetDependency */,
 			);
 			name = "Library - OSX Static Library";
 			productName = "Library - OSX Static Library";
@@ -663,6 +715,10 @@
 					ProjectRef = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
 				},
 				{
+					ProductGroup = 4545E79019A3215F00B6C0C2 /* Products */;
+					ProjectRef = 4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */;
+				},
+				{
 					ProductGroup = 45D5130219A2654600745D1E /* Products */;
 					ProjectRef = 45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */;
 				},
@@ -678,6 +734,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4545E7AB19A3215F00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "HierarchicalHeaderCopier - OSX - Command Line Executable";
+			remoteRef = 4545E7AA19A3215F00B6C0C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4545E7FB19A32D6300B6C0C2 /* RunningTester */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = RunningTester;
+			remoteRef = 4545E7FA19A32D6300B6C0C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		45D5130B19A2654600745D1E /* libEonilAliens.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -883,6 +953,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4545E7F819A32D6300B6C0C2 /* Run Script (Copy Headers) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script (Copy Headers)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT\"\nbash ./CopyHeaders.bash";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45FA7ECB19A25C5A00E047F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -919,6 +1006,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4545E7B219A3218100B6C0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HierarchicalHeaderCopier - OSX - Command Line Executable";
+			targetProxy = 4545E7B119A3218100B6C0C2 /* PBXContainerItemProxy */;
+		};
+		4545E7B419A321A300B6C0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */;
+			targetProxy = 4545E7B319A321A300B6C0C2 /* PBXContainerItemProxy */;
+		};
 		45FA7EEC19A25C5A00E047F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */;
