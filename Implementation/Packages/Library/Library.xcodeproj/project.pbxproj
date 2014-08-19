@@ -13,8 +13,6 @@
 		45D29A1919A25CF100B46DD2 /* libEonilLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */; };
 		45D5139319A2694D00745D1E /* libCocoaSQLite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5132B19A2654600745D1E /* libCocoaSQLite3.a */; };
 		45D5139419A2694D00745D1E /* libEonilAliens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5130D19A2654600745D1E /* libEonilAliens.a */; };
-		45D5139519A2694D00745D1E /* libEonilAppKitSanitizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5131B19A2654600745D1E /* libEonilAppKitSanitizer.a */; };
-		45D5139619A2694D00745D1E /* libEonilFoundationExtras.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5135B19A2654600745D1E /* libEonilFoundationExtras.a */; };
 		45D5139719A2697A00745D1E /* libEonilCommonRealtimeGameAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5133D19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */; };
 		45FA7ED419A25C5A00E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
 		45FA7EDE19A25C5A00E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */; };
@@ -62,6 +60,20 @@
 			remoteGlobalIDString = 4545E7DC19A3230B00B6C0C2;
 			remoteInfo = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester";
 		};
+		45CE90F619A35070003CBD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4512421D195EDD8F00B6198A;
+			remoteInfo = "CommonStuffsForC++";
+		};
+		45CE90F819A35070003CBD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512EF19A264B200745D1E /* CommonStuffsForC++.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45124234195EDD8F00B6198A;
+			remoteInfo = "CommonStuffsForC++Tests";
+		};
 		45D5130A19A2654600745D1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45D512ED19A264B200745D1E /* Aliens.xcodeproj */;
@@ -103,20 +115,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 450AC26B1949AB1B005B7904;
 			remoteInfo = "AppKitSanitizer - OSX - Dynamic Framework - Test";
-		};
-		45D5131A19A2654600745D1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45B4118E19A25F5800984650;
-			remoteInfo = "AppKitSanitizer - OSX - Static Library";
-		};
-		45D5131C19A2654600745D1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45B4119A19A25F5800984650;
-			remoteInfo = "AppKitSanitizer - OSX - Static LibraryTests";
 		};
 		45D5132619A2654600745D1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -230,13 +228,6 @@
 			remoteGlobalIDString = 4512411B195E9F3400B6198A;
 			remoteInfo = "FoundationExtras - iOS - Static Library";
 		};
-		45D5135A19A2654600745D1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45B4115D19A25E8800984650;
-			remoteInfo = "FoundationExtras - OSX - Static Library";
-		};
 		45FA7EEB19A25C5A00E047F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45FA7EC519A25C4400E047F6 /* Project object */;
@@ -319,8 +310,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D5139619A2694D00745D1E /* libEonilFoundationExtras.a in Frameworks */,
-				45D5139519A2694D00745D1E /* libEonilAppKitSanitizer.a in Frameworks */,
 				45D5139719A2697A00745D1E /* libEonilCommonRealtimeGameAlgorithms.a in Frameworks */,
 				45D5139419A2694D00745D1E /* libEonilAliens.a in Frameworks */,
 				45D5139319A2694D00745D1E /* libCocoaSQLite3.a in Frameworks */,
@@ -343,8 +332,8 @@
 		4545E79019A3215F00B6C0C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4545E7AB19A3215F00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable */,
-				4545E7FB19A32D6300B6C0C2 /* RunningTester */,
+				4545E7AB19A3215F00B6C0C2 /* HierarchicalHeaderCopier */,
+				4545E7FB19A32D6300B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -355,6 +344,29 @@
 				4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */,
 			);
 			name = "(second layer tools)";
+			sourceTree = "<group>";
+		};
+		45CE910419A350CB003CBD4E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				45CE910519A350CB003CBD4E /* Eonil */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		45CE910519A350CB003CBD4E /* Eonil */ = {
+			isa = PBXGroup;
+			children = (
+				45CE910619A350CB003CBD4E /* Library */,
+			);
+			path = Eonil;
+			sourceTree = "<group>";
+		};
+		45CE910619A350CB003CBD4E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 		45D512F419A2650100745D1E /* (second layer components) */ = {
@@ -411,6 +423,8 @@
 		45D5130019A2654600745D1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				45CE90F719A35070003CBD4E /* CommonStuffsForC++.framework */,
+				45CE90F919A35070003CBD4E /* CommonStuffsForC++Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -427,10 +441,8 @@
 		45D5130419A2654600745D1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45D5131719A2654600745D1E /* EonilAppKitSanitizer.framework */,
-				45D5131919A2654600745D1E /* AppKitSanitizer - OSX - Dynamic Framework - Test.xctest */,
-				45D5131B19A2654600745D1E /* libEonilAppKitSanitizer.a */,
-				45D5131D19A2654600745D1E /* AppKitSanitizer - OSX - Static LibraryTests.xctest */,
+				45D5131719A2654600745D1E /* AppKitSanitizer.framework */,
+				45D5131919A2654600745D1E /* AppKitSanitizerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -438,9 +450,8 @@
 		45D5135119A2654600745D1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45D5135719A2654600745D1E /* EonilFoundationExtras.framework */,
-				45D5135919A2654600745D1E /* libEonilFoundationExtras.a */,
-				45D5135B19A2654600745D1E /* libEonilFoundationExtras.a */,
+				45D5135719A2654600745D1E /* FoundationExtras.framework */,
+				45D5135919A2654600745D1E /* libFoundationExtras.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,9 +461,10 @@
 			children = (
 				45FA7F2019A25C8C00E047F6 /* README.md */,
 				4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */,
-				45FA7ED219A25C5A00E047F6 /* (first layer components) */,
-				45D512F419A2650100745D1E /* (second layer components) */,
+				45CE910419A350CB003CBD4E /* Source */,
 				4545E7AE19A3216C00B6C0C2 /* (second layer tools) */,
+				45D512F419A2650100745D1E /* (second layer components) */,
+				45FA7ED219A25C5A00E047F6 /* (first layer components) */,
 				45FA7ED919A25C5A00E047F6 /* Library - OSX Dynamic Framework */,
 				45FA7EEE19A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */,
 				45FA7F0219A25C7700E047F6 /* Library - OSX Static Library */,
@@ -734,18 +746,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4545E7AB19A3215F00B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable */ = {
+		4545E7AB19A3215F00B6C0C2 /* HierarchicalHeaderCopier */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = "HierarchicalHeaderCopier - OSX - Command Line Executable";
+			path = HierarchicalHeaderCopier;
 			remoteRef = 4545E7AA19A3215F00B6C0C2 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4545E7FB19A32D6300B6C0C2 /* RunningTester */ = {
+		4545E7FB19A32D6300B6C0C2 /* HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
-			path = RunningTester;
+			path = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester";
 			remoteRef = 4545E7FA19A32D6300B6C0C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45CE90F719A35070003CBD4E /* CommonStuffsForC++.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "CommonStuffsForC++.framework";
+			remoteRef = 45CE90F619A35070003CBD4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		45CE90F919A35070003CBD4E /* CommonStuffsForC++Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CommonStuffsForC++Tests.xctest";
+			remoteRef = 45CE90F819A35070003CBD4E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		45D5130B19A2654600745D1E /* libEonilAliens.a */ = {
@@ -776,32 +802,18 @@
 			remoteRef = 45D5131019A2654600745D1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45D5131719A2654600745D1E /* EonilAppKitSanitizer.framework */ = {
+		45D5131719A2654600745D1E /* AppKitSanitizer.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = EonilAppKitSanitizer.framework;
+			path = AppKitSanitizer.framework;
 			remoteRef = 45D5131619A2654600745D1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45D5131919A2654600745D1E /* AppKitSanitizer - OSX - Dynamic Framework - Test.xctest */ = {
+		45D5131919A2654600745D1E /* AppKitSanitizerTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "AppKitSanitizer - OSX - Dynamic Framework - Test.xctest";
+			path = AppKitSanitizerTests.xctest;
 			remoteRef = 45D5131819A2654600745D1E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45D5131B19A2654600745D1E /* libEonilAppKitSanitizer.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libEonilAppKitSanitizer.a;
-			remoteRef = 45D5131A19A2654600745D1E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45D5131D19A2654600745D1E /* AppKitSanitizer - OSX - Static LibraryTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "AppKitSanitizer - OSX - Static LibraryTests.xctest";
-			remoteRef = 45D5131C19A2654600745D1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		45D5132719A2654600745D1E /* libCocoaSQLite3.a */ = {
@@ -902,25 +914,18 @@
 			remoteRef = 45D5134F19A2654600745D1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45D5135719A2654600745D1E /* EonilFoundationExtras.framework */ = {
+		45D5135719A2654600745D1E /* FoundationExtras.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = EonilFoundationExtras.framework;
+			path = FoundationExtras.framework;
 			remoteRef = 45D5135619A2654600745D1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45D5135919A2654600745D1E /* libEonilFoundationExtras.a */ = {
+		45D5135919A2654600745D1E /* libFoundationExtras.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libEonilFoundationExtras.a;
+			path = libFoundationExtras.a;
 			remoteRef = 45D5135819A2654600745D1E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45D5135B19A2654600745D1E /* libEonilFoundationExtras.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libEonilFoundationExtras.a;
-			remoteRef = 45D5135A19A2654600745D1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

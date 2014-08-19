@@ -26,6 +26,22 @@ compositions.
 
 
 
+
+
+
+Submodule Layout
+----------------
+If a component contains its own submodules they shouldn't
+be duplicated. Having multiple source code is explicitly
+prohibited, and only one version must be exist in whole source
+tree. As a simplest way to do this, any code needs shared 
+dependency must be in same repository. Currently, existing 
+code are stored in separated repository, but they will be
+merged soon into this repository.
+
+
+
+
 Note
 ----
 Do not place any large binary. Currently I have no good idea 
