@@ -185,7 +185,7 @@ copy_all_files(NSURL* src, NSURL* dst, BOOL (^query_whether_to_copy_dir)(NSURL* 
 	
 	////
 	
-	delete_dir_on_filesystem(dst);
+//	delete_dir_on_filesystem(dst);
 	create_dir_on_filesystem(dst);
 	enum_dirs_on_filesystem(src, ^(NSURL *absoluteURL)
 							{

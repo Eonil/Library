@@ -40,6 +40,7 @@
 		45B0DD3619A3150D008BECBF /* HierarchicalHeaderCopier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HierarchicalHeaderCopier; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B0DD3919A3150D008BECBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45B0DD3C19A3150D008BECBF /* HierarchicalHeaderCopier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HierarchicalHeaderCopier-Prefix.pch"; sourceTree = "<group>"; };
+		45D38B4419A3378A00CAD04E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		45B0DCDE19A3143B008BECBF = {
 			isa = PBXGroup;
 			children = (
+				45D38B4419A3378A00CAD04E /* README.md */,
 				45B0DD3819A3150D008BECBF /* HierarchicalHeaderCopier */,
 				45B0DD1C19A314DB008BECBF /* Test */,
 				4545E7DE19A3230B00B6C0C2 /* RunningTester */,
