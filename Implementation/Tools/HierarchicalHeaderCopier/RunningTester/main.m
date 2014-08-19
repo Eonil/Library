@@ -32,8 +32,8 @@ int main(int argc, const char * argv[])
 {
 	@autoreleasepool
 	{
-		NSURL*	u1	=	[NSURL fileURLWithPath:@"./Test/DummyData"];
-		NSURL*	u2	=	[NSURL fileURLWithPath:@"./Test/CopyResult"];
+		NSURL*	u1	=	[[NSURL fileURLWithPath:@"./Test/DummyData"] absoluteURL];
+		NSURL*	u2	=	[[NSURL fileURLWithPath:@"./Test/CopyResult"] absoluteURL];
 		
 		system("pwd");
 		copy_all_only_headers(u1, u2);

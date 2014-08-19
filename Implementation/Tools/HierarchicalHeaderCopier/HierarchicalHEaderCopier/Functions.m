@@ -57,17 +57,26 @@ assert_no_error(NSError* error)
 void
 create_dir_on_filesystem(NSURL* url)
 {
-	NSURL*		u1	=	[url absoluteURL];
+	assert_true(is_absolute_url(url));
 	
-	NSError*	e1	=	nil;
-	BOOL		f1	=	[[NSFileManager defaultManager] createDirectoryAtURL:u1 withIntermediateDirectories:YES attributes:nil error:&e1];
+	////
 	
-	assert_no_error(e1);
-	assert_true(f1 == YES);
+	if (is_existing_dir(url) == NO)
+	{
+		NSError*	e1	=	nil;
+		BOOL		f1	=	[[NSFileManager defaultManager] createDirectoryAtURL:url withIntermediateDirectories:YES attributes:nil error:&e1];
+		
+		assert_no_error(e1);
+		assert_true(f1 == YES);
+	}
 }
 void
 delete_dir_on_filesystem(NSURL* url)
 {
+	assert_true(is_absolute_url(url));
+	
+	////
+	
 	if (is_existing_dir(url))
 	{
 		NSError*	e1	=	nil;
@@ -94,14 +103,21 @@ enum_dirs_on_filesystem(NSURL* root, void(^block)(NSURL* absoluteURL))
 }
 
 NSURL*
-make_relative_path_url(NSURL* toBase, NSURL* fromAbsolute)
+make_relative_path_url(NSURL* toAbsoluteBase, NSURL* fromAbsoluteItem)
 {
-	NSString*	s1	=	[toBase absoluteString];
-	NSString*	s2	=	[fromAbsolute absoluteString];
+	assert_type(toAbsoluteBase, [NSURL class]);
+	assert_type(fromAbsoluteItem, [NSURL class]);
+	assert_true(is_absolute_url(toAbsoluteBase));
+	assert_true(is_absolute_url(fromAbsoluteItem));
+	
+	////
+	
+	NSString*	s1	=	[toAbsoluteBase path];
+	NSString*	s2	=	[fromAbsoluteItem path];
 	
 	if ([s2 hasPrefix:s1] == NO)
 	{
-		fail([NSString stringWithFormat:@"The absolute URL(%@) doesn't start with the base URL (%@).", fromAbsolute, toBase]);
+		fail([NSString stringWithFormat:@"The absolute URL(%@) doesn't start with the base URL (%@).", fromAbsoluteItem, toAbsoluteBase]);
 	}
 	
 	NSString*	s3	=	[s2 substringFromIndex:[s1 length]];
@@ -125,6 +141,12 @@ is_existing_dir(NSURL* url)
 	BOOL		e1	=	[[NSFileManager defaultManager] fileExistsAtPath:p1 isDirectory:&d1];
 	return	e1 && d1;
 }
+BOOL
+is_absolute_url(NSURL* url)
+{
+	return	[[url absoluteURL] isEqual:url];
+}
+
 
 void
 create_dir_on_filesystem_with_relative_path(NSURL* base, NSURL* relative)
@@ -152,12 +174,17 @@ copy_file_on_filesystem_with_relative_path(NSURL* fromBase, NSURL* toBase, NSURL
 
 
 
-/*!
- @param	query_whether_to_copy_file	Returns YES if the supplied URL is fine to copy. NO to skip it.
- */
+
 void
 copy_all_files(NSURL* src, NSURL* dst, BOOL (^query_whether_to_copy_dir)(NSURL* absoluteSourceURL), BOOL (^query_whether_to_copy_file)(NSURL* absoluteSourceURL))
 {
+	assert_type(src, [NSURL class]);
+	assert_type(dst, [NSURL class]);
+	assert_true(is_absolute_url(src));
+	assert_true(is_absolute_url(dst));
+	
+	////
+	
 	delete_dir_on_filesystem(dst);
 	create_dir_on_filesystem(dst);
 	enum_dirs_on_filesystem(src, ^(NSURL *absoluteURL)
