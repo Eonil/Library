@@ -17,8 +17,8 @@ int main(int argc, const char * argv[])
 	{
 		assert_true_with_message(argc == 3, @"You must specify <src> and <dst>.");
 		
-		NSString*	src	=	[NSString stringWithUTF8String:argv[0]];
-		NSString*	dst	=	[NSString stringWithUTF8String:argv[1]];
+		NSString*	src	=	[NSString stringWithUTF8String:argv[1]];
+		NSString*	dst	=	[NSString stringWithUTF8String:argv[2]];
 		assert_true_with_message([[NSFileManager defaultManager] fileExistsAtPath:src], @"The source directory does not exist.");
 		
 		NSURL*		u1	=	[[NSURL fileURLWithPath:src] absoluteURL];

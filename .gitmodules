@@ -1,6 +1,3 @@
-[submodule "Implementation/Components/Common"]
-	path = Implementation/Components/Common
-	url = https://github.com/Eonil/Common
 
 [submodule "Aliens"]
 	path = Implementation/Components/Aliens
@@ -11,3 +8,6 @@
 [submodule "CocoaSQLite"]
 	path = Implementation/Components/CocoaSQLite
 	url = https://github.com/Eonil/CocoaSQLite
+[submodule "Common"]
+	path = Implementation/Components/Common
+	url = https://github.com/Eonil/Common
