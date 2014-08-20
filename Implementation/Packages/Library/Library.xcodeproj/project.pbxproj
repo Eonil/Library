@@ -28,7 +28,6 @@
 		45FA7F1119A25C7700E047F6 /* libEonilLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */; };
 		45FA7F1719A25C7700E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7F1519A25C7700E047F6 /* InfoPlist.strings */; };
 		45FA7F1919A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */; };
-		45FA7F2119A25C8C00E047F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7F2019A25C8C00E047F6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +244,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4545B27819A4F19F00BA41EF /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
 		4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HierarchicalHeaderCopier.xcodeproj; path = ../../Tools/HierarchicalHeaderCopier/HierarchicalHeaderCopier.xcodeproj; sourceTree = "<group>"; };
 		4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */ = {isa = PBXFileReference; lastKnownFileType = text; path = CopyHeaders.bash; sourceTree = "<group>"; };
 		459C6E4D19A26D560045550A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -280,7 +280,6 @@
 		45FA7F1419A25C7700E047F6 /* Library - OSX Static LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Static LibraryTests-Info.plist"; sourceTree = "<group>"; };
 		45FA7F1619A25C7700E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Static_LibraryTests.m"; sourceTree = "<group>"; };
-		45FA7F2019A25C8C00E047F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +328,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4545B27619A4F18F00BA41EF /* Eonil */ = {
+			isa = PBXGroup;
+			children = (
+				4545B27819A4F19F00BA41EF /* Library.h */,
+				4545B27719A4F18F00BA41EF /* Library */,
+			);
+			path = Eonil;
+			sourceTree = "<group>";
+		};
+		4545B27719A4F18F00BA41EF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		4545E79019A3215F00B6C0C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,29 +359,6 @@
 				4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */,
 			);
 			name = "(second layer tools)";
-			sourceTree = "<group>";
-		};
-		45CE910419A350CB003CBD4E /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				45CE910519A350CB003CBD4E /* Eonil */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		45CE910519A350CB003CBD4E /* Eonil */ = {
-			isa = PBXGroup;
-			children = (
-				45CE910619A350CB003CBD4E /* Library */,
-			);
-			path = Eonil;
-			sourceTree = "<group>";
-		};
-		45CE910619A350CB003CBD4E /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
 			sourceTree = "<group>";
 		};
 		45D512F419A2650100745D1E /* (second layer components) */ = {
@@ -459,9 +451,8 @@
 		45FA7EC419A25C4400E047F6 = {
 			isa = PBXGroup;
 			children = (
-				45FA7F2019A25C8C00E047F6 /* README.md */,
 				4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */,
-				45CE910419A350CB003CBD4E /* Source */,
+				4545B27619A4F18F00BA41EF /* Eonil */,
 				4545E7AE19A3216C00B6C0C2 /* (second layer tools) */,
 				45D512F419A2650100745D1E /* (second layer components) */,
 				45FA7ED219A25C5A00E047F6 /* (first layer components) */,
@@ -935,7 +926,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45FA7F2119A25C8C00E047F6 /* README.md in Resources */,
 				45FA7EDE19A25C5A00E047F6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

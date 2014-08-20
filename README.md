@@ -42,6 +42,14 @@ merged soon into this repository.
 
 
 
+Headers
+-------
+Headers are copied by a manually written custom program to keep the hierarchy.
+(writing a shell script is harder than writing and maintaining this program)
+
+
+
+
 Note
 ----
 Do not place any large binary. Currently I have no good idea 
