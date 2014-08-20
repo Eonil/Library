@@ -24,7 +24,12 @@ compositions.
 
 
 
-
+How to Build
+------------
+Select `Library - OSX Dynamic Framework` scheme and build.
+All Library targets are depending on several script and programs
+to place header files correctly, then do not modify build passes
+without understanding it.
 
 
 
