@@ -968,7 +968,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$BUILT_PRODUCTS_DIR\"\ncp -R ./include/* ./EonilLibrary.framework/Headers/\n";
+			shellScript = "cd \"$BUILT_PRODUCTS_DIR\"\ncp -R ./include/* ./EonilLibrary.framework/Versions/A/Headers/\n";
 		};
 		4545E7F819A32D6300B6C0C2 /* Run Script (Copy Headers) */ = {
 			isa = PBXShellScriptBuildPhase;
