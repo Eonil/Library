@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4545B2B119A4F43F00BA41EF /* Library.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4545B27819A4F19F00BA41EF /* Library.h */; };
 		459C6E4E19A26D560045550A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4D19A26D560045550A /* libsqlite3.dylib */; };
 		459C6E5019A26DA80045550A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4F19A26DA80045550A /* libc++.dylib */; };
 		459C6E5419A26DDE0045550A /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E5219A26DDE0045550A /* libc++abi.dylib */; };
@@ -242,6 +243,19 @@
 			remoteInfo = "Library - OSX Static Library";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4545B2B019A4F43C00BA41EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers/Eonil;
+			dstSubfolderSpec = 6;
+			files = (
+				4545B2B119A4F43F00BA41EF /* Library.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4545B27819A4F19F00BA41EF /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
@@ -575,13 +589,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45FA7ECD19A25C5A00E047F6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45FA7EFE19A25C7700E047F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,8 +605,9 @@
 			buildPhases = (
 				45FA7ECB19A25C5A00E047F6 /* Sources */,
 				45FA7ECC19A25C5A00E047F6 /* Frameworks */,
-				45FA7ECD19A25C5A00E047F6 /* Headers */,
 				45FA7ECE19A25C5A00E047F6 /* Resources */,
+				4545B29519A4F3BB00BA41EF /* ShellScript */,
+				4545B2B019A4F43C00BA41EF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -949,6 +957,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4545B29519A4F3BB00BA41EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$BUILT_PRODUCTS_DIR\"\ncp -R ./include/* ./EonilLibrary.framework/Headers/\n";
+		};
 		4545E7F819A32D6300B6C0C2 /* Run Script (Copy Headers) */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
