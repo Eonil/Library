@@ -1,0 +1,12 @@
+[submodule "Components/Common"]
+	path = Components/Common
+	url = https://github.com/Eonil/Common.git
+[submodule "Components/CommonRealtimeGameAlgorithms"]
+	path = Components/CommonRealtimeGameAlgorithms
+	url = https://github.com/Eonil/CommonRealtimeGameAlgorithms.git
+[submodule "Components/Aliens"]
+	path = Components/Aliens
+	url = https://github.com/Eonil/Aliens.git
+[submodule "Components/CocoaSQLite"]
+	path = Components/CocoaSQLite
+	url = https://github.com/Eonil/CocoaSQLite.git
