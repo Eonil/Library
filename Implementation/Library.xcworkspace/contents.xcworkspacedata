@@ -25,6 +25,13 @@
       <FileRef
          location = "group:CocoaSQLite/CocoaSQLite3.xcodeproj">
       </FileRef>
+      <Group
+         location = "container:"
+         name = "--------">
+      </Group>
+      <FileRef
+         location = "group:Asynchronous/Asynchronous.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "group:Tools"
