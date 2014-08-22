@@ -47,7 +47,7 @@
       location = "group:Packages"
       name = "Packages">
       <FileRef
-         location = "group:Library/Library.xcodeproj">
+         location = "group:Library/Monolith.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>

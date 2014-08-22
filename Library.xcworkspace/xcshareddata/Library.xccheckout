@@ -34,23 +34,23 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>087505B08F8E0FE78DD0A3C82E507F9F7EF273B8</key>
-		<string>../../Implementation/Components/Aliens/</string>
+		<string>../../Implementation/Components/Aliens</string>
 		<key>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</key>
-		<string>../../../../Components/Common</string>
+		<string>../../../Components/Common</string>
 		<key>6D499A97-137C-4265-ACD0-124A52AF4A11</key>
-		<string>../../../../Components/CommonRealtimeGameAlgorithms</string>
+		<string>../../../Components/CommonRealtimeGameAlgorithms</string>
 		<key>706C4709-706F-4F43-99A8-EE89486AEC0D</key>
-		<string>../../../../Components/CocoaSQLite</string>
+		<string>../../../Components/CocoaSQLite</string>
 		<key>70D3BFBACC9839B0DA4D7015588590F24B495DAC</key>
 		<string>../..</string>
 		<key>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</key>
-		<string>../../Implementation/Components/Common/</string>
+		<string>../../Implementation/Components/Common</string>
 		<key>DF5E2F15-0D11-4F01-8F70-0457073839B4</key>
-		<string>../../../../Components/Aliens</string>
+		<string>../../../Components/Aliens</string>
 		<key>E050F103469FE57F87573E39942146DF6679FE26</key>
-		<string>../../Implementation/Components/CommonRealtimeGameAlgorithms/</string>
+		<string>../../Implementation/Components/CommonRealtimeGameAlgorithms</string>
 		<key>FD55AFA91F3CC977FF03288DC234AB1C17693E11</key>
-		<string>../../Implementation/Components/CocoaSQLite/</string>
+		<string>../../Implementation/Components/CocoaSQLite</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Eonil/Library</string>
@@ -80,14 +80,6 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>706C4709-706F-4F43-99A8-EE89486AEC0D</string>
-			<key>IDESourceControlWCCName</key>
-			<string>CocoaSQLite</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>FD55AFA91F3CC977FF03288DC234AB1C17693E11</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocoaSQLite</string>
@@ -96,7 +88,15 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
+			<string>706C4709-706F-4F43-99A8-EE89486AEC0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaSQLite</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
 		</dict>
@@ -104,7 +104,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
+			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
 		</dict>

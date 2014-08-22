@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4545B2B119A4F43F00BA41EF /* Library.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4545B27819A4F19F00BA41EF /* Library.h */; };
 		459C6E4E19A26D560045550A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4D19A26D560045550A /* libsqlite3.dylib */; };
 		459C6E5019A26DA80045550A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4F19A26DA80045550A /* libc++.dylib */; };
 		459C6E5419A26DDE0045550A /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E5219A26DDE0045550A /* libc++abi.dylib */; };
-		45D29A1919A25CF100B46DD2 /* libEonilLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */; };
+		45D29A1919A25CF100B46DD2 /* libMonolith.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libMonolith.a */; };
 		45D5139319A2694D00745D1E /* libCocoaSQLite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5132B19A2654600745D1E /* libCocoaSQLite3.a */; };
 		45D5139419A2694D00745D1E /* libEonilAliens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5130D19A2654600745D1E /* libEonilAliens.a */; };
 		45D5139719A2697A00745D1E /* libEonilCommonRealtimeGameAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5133D19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */; };
+		45F5D35119A75BBD0047F251 /* Monolith.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45F5D35019A75BAA0047F251 /* Monolith.h */; };
 		45FA7ED419A25C5A00E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
 		45FA7EDE19A25C5A00E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */; };
 		45FA7EE219A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7EE119A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m */; };
 		45FA7EE919A25C5A00E047F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7EE819A25C5A00E047F6 /* XCTest.framework */; };
 		45FA7EEA19A25C5A00E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
-		45FA7EED19A25C5A00E047F6 /* EonilLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */; };
+		45FA7EED19A25C5A00E047F6 /* Monolith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED019A25C5A00E047F6 /* Monolith.framework */; };
 		45FA7EF319A25C5A00E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7EF119A25C5A00E047F6 /* InfoPlist.strings */; };
 		45FA7EF519A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7EF419A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m */; };
 		45FA7F0719A25C7700E047F6 /* Library___OSX_Static_Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7F0619A25C7700E047F6 /* Library___OSX_Static_Library.m */; };
 		45FA7F0D19A25C7700E047F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7EE819A25C5A00E047F6 /* XCTest.framework */; };
 		45FA7F0E19A25C7700E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
-		45FA7F1119A25C7700E047F6 /* libEonilLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */; };
+		45FA7F1119A25C7700E047F6 /* libMonolith.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7F0019A25C7700E047F6 /* libMonolith.a */; };
 		45FA7F1719A25C7700E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7F1519A25C7700E047F6 /* InfoPlist.strings */; };
 		45FA7F1919A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */; };
 /* End PBXBuildFile section */
@@ -251,14 +251,13 @@
 			dstPath = Headers/Eonil;
 			dstSubfolderSpec = 6;
 			files = (
-				4545B2B119A4F43F00BA41EF /* Library.h in CopyFiles */,
+				45F5D35119A75BBD0047F251 /* Monolith.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4545B27819A4F19F00BA41EF /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
 		4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HierarchicalHeaderCopier.xcodeproj; path = ../../Tools/HierarchicalHeaderCopier/HierarchicalHeaderCopier.xcodeproj; sourceTree = "<group>"; };
 		4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */ = {isa = PBXFileReference; lastKnownFileType = text; path = CopyHeaders.bash; sourceTree = "<group>"; };
 		459C6E4D19A26D560045550A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -272,26 +271,27 @@
 		45D512F019A264B200745D1E /* UIKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKitSanitizer.xcodeproj; path = ../../Components/Common/UIKitSanitizer/UIKitSanitizer.xcodeproj; sourceTree = "<group>"; };
 		45D512F119A264B200745D1E /* AppKitSanitizer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppKitSanitizer.xcodeproj; path = ../../Components/Common/AppKitSanitizer/AppKitSanitizer.xcodeproj; sourceTree = "<group>"; };
 		45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoundationExtras.xcodeproj; path = ../../Components/Common/FoundationExtras/FoundationExtras.xcodeproj; sourceTree = "<group>"; };
-		45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F5D35019A75BAA0047F251 /* Monolith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monolith.h; sourceTree = "<group>"; };
+		45FA7ED019A25C5A00E047F6 /* Monolith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Monolith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FA7ED319A25C5A00E047F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45FA7ED619A25C5A00E047F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45FA7ED819A25C5A00E047F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		45FA7EDB19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Dynamic Framework-Info.plist"; sourceTree = "<group>"; };
+		45FA7EDB19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monolith - OSX Dynamic Framework-Info.plist"; sourceTree = "<group>"; };
 		45FA7EDD19A25C5A00E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		45FA7EDF19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library - OSX Dynamic Framework-Prefix.pch"; sourceTree = "<group>"; };
+		45FA7EDF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monolith - OSX Dynamic Framework-Prefix.pch"; sourceTree = "<group>"; };
 		45FA7EE019A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library___OSX_Dynamic_Framework.h"; sourceTree = "<group>"; };
 		45FA7EE119A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Dynamic_Framework.m"; sourceTree = "<group>"; };
-		45FA7EE719A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library - OSX Dynamic FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7EE719A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monolith - OSX Dynamic FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FA7EE819A25C5A00E047F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		45FA7EF019A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Dynamic FrameworkTests-Info.plist"; sourceTree = "<group>"; };
+		45FA7EF019A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monolith - OSX Dynamic FrameworkTests-Info.plist"; sourceTree = "<group>"; };
 		45FA7EF219A25C5A00E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45FA7EF419A25C5A00E047F6 /* Library___OSX_Dynamic_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Dynamic_FrameworkTests.m"; sourceTree = "<group>"; };
-		45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEonilLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		45FA7F0419A25C7700E047F6 /* Library - OSX Static Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library - OSX Static Library-Prefix.pch"; sourceTree = "<group>"; };
+		45FA7F0019A25C7700E047F6 /* libMonolith.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMonolith.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7F0419A25C7700E047F6 /* Monolith - OSX Static Monolith-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Monolith - OSX Static Monolith-Prefix.pch"; sourceTree = "<group>"; };
 		45FA7F0519A25C7700E047F6 /* Library___OSX_Static_Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Library___OSX_Static_Library.h"; sourceTree = "<group>"; };
 		45FA7F0619A25C7700E047F6 /* Library___OSX_Static_Library.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Static_Library.m"; sourceTree = "<group>"; };
-		45FA7F0C19A25C7700E047F6 /* Library - OSX Static LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library - OSX Static LibraryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45FA7F1419A25C7700E047F6 /* Library - OSX Static LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Library - OSX Static LibraryTests-Info.plist"; sourceTree = "<group>"; };
+		45FA7F0C19A25C7700E047F6 /* Monolith - OSX Static MonolithTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Monolith - OSX Static MonolithTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FA7F1419A25C7700E047F6 /* Monolith - OSX Static MonolithTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Monolith - OSX Static MonolithTests-Info.plist"; sourceTree = "<group>"; };
 		45FA7F1619A25C7700E047F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45FA7F1819A25C7700E047F6 /* Library___OSX_Static_LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Library___OSX_Static_LibraryTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -304,7 +304,7 @@
 				459C6E5419A26DDE0045550A /* libc++abi.dylib in Frameworks */,
 				459C6E5019A26DA80045550A /* libc++.dylib in Frameworks */,
 				459C6E4E19A26D560045550A /* libsqlite3.dylib in Frameworks */,
-				45D29A1919A25CF100B46DD2 /* libEonilLibrary.a in Frameworks */,
+				45D29A1919A25CF100B46DD2 /* libMonolith.a in Frameworks */,
 				45FA7ED419A25C5A00E047F6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +315,7 @@
 			files = (
 				45FA7EEA19A25C5A00E047F6 /* Cocoa.framework in Frameworks */,
 				45FA7EE919A25C5A00E047F6 /* XCTest.framework in Frameworks */,
-				45FA7EED19A25C5A00E047F6 /* EonilLibrary.framework in Frameworks */,
+				45FA7EED19A25C5A00E047F6 /* Monolith.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +333,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45FA7F1119A25C7700E047F6 /* libEonilLibrary.a in Frameworks */,
+				45FA7F1119A25C7700E047F6 /* libMonolith.a in Frameworks */,
 				45FA7F0E19A25C7700E047F6 /* Cocoa.framework in Frameworks */,
 				45FA7F0D19A25C7700E047F6 /* XCTest.framework in Frameworks */,
 			);
@@ -342,22 +342,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4545B27619A4F18F00BA41EF /* Eonil */ = {
-			isa = PBXGroup;
-			children = (
-				4545B27819A4F19F00BA41EF /* Library.h */,
-				4545B27719A4F18F00BA41EF /* Library */,
-			);
-			path = Eonil;
-			sourceTree = "<group>";
-		};
-		4545B27719A4F18F00BA41EF /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
 		4545E79019A3215F00B6C0C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,7 +450,7 @@
 			isa = PBXGroup;
 			children = (
 				4545E7FC19A32DAB00B6C0C2 /* CopyHeaders.bash */,
-				4545B27619A4F18F00BA41EF /* Eonil */,
+				45F5D35019A75BAA0047F251 /* Monolith.h */,
 				4545E7AE19A3216C00B6C0C2 /* (second layer tools) */,
 				45D512F419A2650100745D1E /* (second layer components) */,
 				45FA7ED219A25C5A00E047F6 /* (first layer components) */,
@@ -481,10 +465,10 @@
 		45FA7ED119A25C5A00E047F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */,
-				45FA7EE719A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests.xctest */,
-				45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */,
-				45FA7F0C19A25C7700E047F6 /* Library - OSX Static LibraryTests.xctest */,
+				45FA7ED019A25C5A00E047F6 /* Monolith.framework */,
+				45FA7EE719A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests.xctest */,
+				45FA7F0019A25C7700E047F6 /* libMonolith.a */,
+				45FA7F0C19A25C7700E047F6 /* Monolith - OSX Static MonolithTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -525,9 +509,9 @@
 		45FA7EDA19A25C5A00E047F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				45FA7EDB19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Info.plist */,
+				45FA7EDB19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework-Info.plist */,
 				45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */,
-				45FA7EDF19A25C5A00E047F6 /* Library - OSX Dynamic Framework-Prefix.pch */,
+				45FA7EDF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -544,7 +528,7 @@
 		45FA7EEF19A25C5A00E047F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				45FA7EF019A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests-Info.plist */,
+				45FA7EF019A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests-Info.plist */,
 				45FA7EF119A25C5A00E047F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -563,7 +547,7 @@
 		45FA7F0319A25C7700E047F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				45FA7F0419A25C7700E047F6 /* Library - OSX Static Library-Prefix.pch */,
+				45FA7F0419A25C7700E047F6 /* Monolith - OSX Static Monolith-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -580,7 +564,7 @@
 		45FA7F1319A25C7700E047F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				45FA7F1419A25C7700E047F6 /* Library - OSX Static LibraryTests-Info.plist */,
+				45FA7F1419A25C7700E047F6 /* Monolith - OSX Static MonolithTests-Info.plist */,
 				45FA7F1519A25C7700E047F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -588,20 +572,10 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		45FA7EFE19A25C7700E047F6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */ = {
+		45FA7ECF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45FA7EF619A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic Framework" */;
+			buildConfigurationList = 45FA7EF619A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Dynamic Framework" */;
 			buildPhases = (
 				45FA7ECB19A25C5A00E047F6 /* Sources */,
 				45FA7ECC19A25C5A00E047F6 /* Frameworks */,
@@ -614,14 +588,14 @@
 			dependencies = (
 				4545E7B419A321A300B6C0C2 /* PBXTargetDependency */,
 			);
-			name = "Library - OSX Dynamic Framework";
+			name = "Monolith - OSX Dynamic Framework";
 			productName = "Library - OSX Dynamic Framework";
-			productReference = 45FA7ED019A25C5A00E047F6 /* EonilLibrary.framework */;
+			productReference = 45FA7ED019A25C5A00E047F6 /* Monolith.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		45FA7EE619A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */ = {
+		45FA7EE619A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45FA7EF919A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic FrameworkTests" */;
+			buildConfigurationList = 45FA7EF919A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Dynamic FrameworkTests" */;
 			buildPhases = (
 				45FA7EE319A25C5A00E047F6 /* Sources */,
 				45FA7EE419A25C5A00E047F6 /* Frameworks */,
@@ -632,18 +606,17 @@
 			dependencies = (
 				45FA7EEC19A25C5A00E047F6 /* PBXTargetDependency */,
 			);
-			name = "Library - OSX Dynamic FrameworkTests";
+			name = "Monolith - OSX Dynamic FrameworkTests";
 			productName = "Library - OSX Dynamic FrameworkTests";
-			productReference = 45FA7EE719A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests.xctest */;
+			productReference = 45FA7EE719A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */ = {
+		45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static Library" */;
+			buildConfigurationList = 45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static Monolith" */;
 			buildPhases = (
 				45FA7EFC19A25C7700E047F6 /* Sources */,
 				45FA7EFD19A25C7700E047F6 /* Frameworks */,
-				45FA7EFE19A25C7700E047F6 /* Headers */,
 				4545E7F819A32D6300B6C0C2 /* Run Script (Copy Headers) */,
 			);
 			buildRules = (
@@ -651,14 +624,14 @@
 			dependencies = (
 				4545E7B219A3218100B6C0C2 /* PBXTargetDependency */,
 			);
-			name = "Library - OSX Static Library";
+			name = "Monolith - OSX Static Monolith";
 			productName = "Library - OSX Static Library";
-			productReference = 45FA7F0019A25C7700E047F6 /* libEonilLibrary.a */;
+			productReference = 45FA7F0019A25C7700E047F6 /* libMonolith.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		45FA7F0B19A25C7700E047F6 /* Library - OSX Static LibraryTests */ = {
+		45FA7F0B19A25C7700E047F6 /* Monolith - OSX Static MonolithTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45FA7F1D19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static LibraryTests" */;
+			buildConfigurationList = 45FA7F1D19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static MonolithTests" */;
 			buildPhases = (
 				45FA7F0819A25C7700E047F6 /* Sources */,
 				45FA7F0919A25C7700E047F6 /* Frameworks */,
@@ -669,9 +642,9 @@
 			dependencies = (
 				45FA7F1019A25C7700E047F6 /* PBXTargetDependency */,
 			);
-			name = "Library - OSX Static LibraryTests";
+			name = "Monolith - OSX Static MonolithTests";
 			productName = "Library - OSX Static LibraryTests";
-			productReference = 45FA7F0C19A25C7700E047F6 /* Library - OSX Static LibraryTests.xctest */;
+			productReference = 45FA7F0C19A25C7700E047F6 /* Monolith - OSX Static MonolithTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -690,7 +663,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 45FA7EC819A25C4400E047F6 /* Build configuration list for PBXProject "Library" */;
+			buildConfigurationList = 45FA7EC819A25C4400E047F6 /* Build configuration list for PBXProject "Monolith" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -736,10 +709,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */,
-				45FA7EE619A25C5A00E047F6 /* Library - OSX Dynamic FrameworkTests */,
-				45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */,
-				45FA7F0B19A25C7700E047F6 /* Library - OSX Static LibraryTests */,
+				45FA7ECF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework */,
+				45FA7EE619A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests */,
+				45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */,
+				45FA7F0B19A25C7700E047F6 /* Monolith - OSX Static MonolithTests */,
 			);
 		};
 /* End PBXProject section */
@@ -968,7 +941,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$BUILT_PRODUCTS_DIR\"\ncp -R ./include/* ./EonilLibrary.framework/Versions/A/Headers/\n";
+			shellScript = "cd \"$BUILT_PRODUCTS_DIR\"\ncp -R ./include/* ./Monolith.framework/Versions/A/Headers/\n";
 		};
 		4545E7F819A32D6300B6C0C2 /* Run Script (Copy Headers) */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1029,17 +1002,17 @@
 		};
 		4545E7B419A321A300B6C0C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */;
+			target = 45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */;
 			targetProxy = 4545E7B319A321A300B6C0C2 /* PBXContainerItemProxy */;
 		};
 		45FA7EEC19A25C5A00E047F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45FA7ECF19A25C5A00E047F6 /* Library - OSX Dynamic Framework */;
+			target = 45FA7ECF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework */;
 			targetProxy = 45FA7EEB19A25C5A00E047F6 /* PBXContainerItemProxy */;
 		};
 		45FA7F1019A25C7700E047F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45FA7EFF19A25C7700E047F6 /* Library - OSX Static Library */;
+			target = 45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */;
 			targetProxy = 45FA7F0F19A25C7700E047F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1080,7 +1053,7 @@
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Eonil$PROJECT_NAME;
+				PRODUCT_NAME = $PROJECT_NAME;
 			};
 			name = Debug;
 		};
@@ -1090,7 +1063,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_C_LANGUAGE_STANDARD = c11;
-				PRODUCT_NAME = Eonil$PROJECT_NAME;
+				PRODUCT_NAME = $PROJECT_NAME;
 			};
 			name = Release;
 		};
@@ -1116,7 +1089,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Prefix.pch";
+				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Monolith - OSX Dynamic Framework-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1128,7 +1101,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Info.plist";
+				INFOPLIST_FILE = "Library - OSX Dynamic Framework/Monolith - OSX Dynamic Framework-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = " -all_load";
@@ -1160,14 +1133,14 @@
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Prefix.pch";
+				GCC_PREFIX_HEADER = "Library - OSX Dynamic Framework/Monolith - OSX Dynamic Framework-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Library - OSX Dynamic Framework/Library - OSX Dynamic Framework-Info.plist";
+				INFOPLIST_FILE = "Library - OSX Dynamic Framework/Monolith - OSX Dynamic Framework-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_LDFLAGS = " -all_load";
 				SDKROOT = macosx;
@@ -1215,10 +1188,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Library - OSX Dynamic FrameworkTests/Library - OSX Dynamic FrameworkTests-Info.plist";
+				INFOPLIST_FILE = "Library - OSX Dynamic FrameworkTests/Monolith - OSX Dynamic FrameworkTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Monolith - OSX Dynamic FrameworkTests";
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1260,9 +1233,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Library - OSX Dynamic FrameworkTests/Library - OSX Dynamic FrameworkTests-Info.plist";
+				INFOPLIST_FILE = "Library - OSX Dynamic FrameworkTests/Monolith - OSX Dynamic FrameworkTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Monolith - OSX Dynamic FrameworkTests";
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1288,7 +1261,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Library - OSX Static Library/Library - OSX Static Library-Prefix.pch";
+				GCC_PREFIX_HEADER = "Library - OSX Static Library/Monolith - OSX Static Monolith-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1330,7 +1303,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Library - OSX Static Library/Library - OSX Static Library-Prefix.pch";
+				GCC_PREFIX_HEADER = "Library - OSX Static Library/Monolith - OSX Static Monolith-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1386,10 +1359,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Library - OSX Static LibraryTests/Library - OSX Static LibraryTests-Info.plist";
+				INFOPLIST_FILE = "Library - OSX Static LibraryTests/Monolith - OSX Static MonolithTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Monolith - OSX Static MonolithTests";
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1431,9 +1404,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Library - OSX Static LibraryTests/Library - OSX Static LibraryTests-Info.plist";
+				INFOPLIST_FILE = "Library - OSX Static LibraryTests/Monolith - OSX Static MonolithTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Monolith - OSX Static MonolithTests";
 				SDKROOT = macosx;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -1443,7 +1416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45FA7EC819A25C4400E047F6 /* Build configuration list for PBXProject "Library" */ = {
+		45FA7EC819A25C4400E047F6 /* Build configuration list for PBXProject "Monolith" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA7EC919A25C4400E047F6 /* Debug */,
@@ -1452,7 +1425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45FA7EF619A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic Framework" */ = {
+		45FA7EF619A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Dynamic Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA7EF719A25C5A00E047F6 /* Debug */,
@@ -1461,7 +1434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45FA7EF919A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Dynamic FrameworkTests" */ = {
+		45FA7EF919A25C5A00E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Dynamic FrameworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA7EFA19A25C5A00E047F6 /* Debug */,
@@ -1470,7 +1443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static Library" */ = {
+		45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static Monolith" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA7F1B19A25C7700E047F6 /* Debug */,
@@ -1479,7 +1452,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45FA7F1D19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Library - OSX Static LibraryTests" */ = {
+		45FA7F1D19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static MonolithTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA7F1E19A25C7700E047F6 /* Debug */,
