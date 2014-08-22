@@ -14,7 +14,7 @@
 		45D5139319A2694D00745D1E /* libCocoaSQLite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5132B19A2654600745D1E /* libCocoaSQLite3.a */; };
 		45D5139419A2694D00745D1E /* libEonilAliens.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5130D19A2654600745D1E /* libEonilAliens.a */; };
 		45D5139719A2697A00745D1E /* libEonilCommonRealtimeGameAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D5133D19A2654600745D1E /* libEonilCommonRealtimeGameAlgorithms.a */; };
-		45F5D35119A75BBD0047F251 /* Monolith.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45F5D35019A75BAA0047F251 /* Monolith.h */; };
+		45F5D35119A75BBD0047F251 /* Monolith.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5D35019A75BAA0047F251 /* Monolith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45FA7ED419A25C5A00E047F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FA7ED319A25C5A00E047F6 /* Cocoa.framework */; };
 		45FA7EDE19A25C5A00E047F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45FA7EDC19A25C5A00E047F6 /* InfoPlist.strings */; };
 		45FA7EE219A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FA7EE119A25C5A00E047F6 /* Library___OSX_Dynamic_Framework.m */; };
@@ -243,19 +243,6 @@
 			remoteInfo = "Library - OSX Static Library";
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4545B2B019A4F43C00BA41EF /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Headers/Eonil;
-			dstSubfolderSpec = 6;
-			files = (
-				45F5D35119A75BBD0047F251 /* Monolith.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HierarchicalHeaderCopier.xcodeproj; path = ../../Tools/HierarchicalHeaderCopier/HierarchicalHeaderCopier.xcodeproj; sourceTree = "<group>"; };
@@ -572,6 +559,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		45A9FDCE19A75DEB00D7147F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F5D35119A75BBD0047F251 /* Monolith.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		45FA7ECF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework */ = {
 			isa = PBXNativeTarget;
@@ -581,7 +579,7 @@
 				45FA7ECC19A25C5A00E047F6 /* Frameworks */,
 				45FA7ECE19A25C5A00E047F6 /* Resources */,
 				4545B29519A4F3BB00BA41EF /* ShellScript */,
-				4545B2B019A4F43C00BA41EF /* CopyFiles */,
+				45A9FDCE19A75DEB00D7147F /* Headers */,
 			);
 			buildRules = (
 			);
