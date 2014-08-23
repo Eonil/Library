@@ -50,4 +50,11 @@
          location = "group:Library/Monolith.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "group:Tests"
+      name = "Tests">
+      <FileRef
+         location = "group:Monolith - Test App 1 - OSX/Monolith - Test App 1 - OSX.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

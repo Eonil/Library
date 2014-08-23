@@ -6,8 +6,16 @@
 //
 //
 
-#ifndef Monolith_Monolith_h
-#define Monolith_Monolith_h
+#pragma once
 
+#ifdef	__OBJC__
+#import	"Common/FoundationExtras/FoundationExtras.h"
+#import	"Common/AppKitSanitizer/AppKitSanitizer.h"
+#import	"Common/UIKitSanitizer/UIKitSanitizer.h"
+#import "CocoaSQLite/CocoaSQLite.h"
+#endif
 
+#ifdef	__cplusplus
+#import	"Aliens.h"
+#import "CommonRealtimeGameAlgorithms.h"
 #endif

@@ -64,7 +64,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>087505B08F8E0FE78DD0A3C82E507F9F7EF273B8</string>
+			<string>DF5E2F15-0D11-4F01-8F70-0457073839B4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Aliens</string>
 		</dict>
@@ -72,7 +72,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>DF5E2F15-0D11-4F01-8F70-0457073839B4</string>
+			<string>087505B08F8E0FE78DD0A3C82E507F9F7EF273B8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Aliens</string>
 		</dict>
@@ -96,7 +96,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
+			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
 		</dict>
@@ -104,7 +104,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
+			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
 		</dict>
