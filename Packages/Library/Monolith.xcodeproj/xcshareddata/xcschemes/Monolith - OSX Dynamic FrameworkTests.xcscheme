@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45FA7EFF19A25C7700E047F6"
-               BuildableName = "libEonilLibrary.a"
-               BlueprintName = "Library - OSX Static Library"
-               ReferencedContainer = "container:Library.xcodeproj">
+               BlueprintIdentifier = "45FA7EE619A25C5A00E047F6"
+               BuildableName = "Monolith - OSX Dynamic FrameworkTests.xctest"
+               BlueprintName = "Monolith - OSX Dynamic FrameworkTests"
+               ReferencedContainer = "container:Monolith.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,13 +32,22 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45FA7F0B19A25C7700E047F6"
-               BuildableName = "Library - OSX Static LibraryTests.xctest"
-               BlueprintName = "Library - OSX Static LibraryTests"
-               ReferencedContainer = "container:Library.xcodeproj">
+               BlueprintIdentifier = "45FA7EE619A25C5A00E047F6"
+               BuildableName = "Monolith - OSX Dynamic FrameworkTests.xctest"
+               BlueprintName = "Monolith - OSX Dynamic FrameworkTests"
+               ReferencedContainer = "container:Monolith.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "45FA7EE619A25C5A00E047F6"
+            BuildableName = "Monolith - OSX Dynamic FrameworkTests.xctest"
+            BlueprintName = "Monolith - OSX Dynamic FrameworkTests"
+            ReferencedContainer = "container:Monolith.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -52,10 +61,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45FA7EFF19A25C7700E047F6"
-            BuildableName = "libEonilLibrary.a"
-            BlueprintName = "Library - OSX Static Library"
-            ReferencedContainer = "container:Library.xcodeproj">
+            BlueprintIdentifier = "45FA7EE619A25C5A00E047F6"
+            BuildableName = "Monolith - OSX Dynamic FrameworkTests.xctest"
+            BlueprintName = "Monolith - OSX Dynamic FrameworkTests"
+            ReferencedContainer = "container:Monolith.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "45FA7EE619A25C5A00E047F6"
+            BuildableName = "Monolith - OSX Dynamic FrameworkTests.xctest"
+            BlueprintName = "Monolith - OSX Dynamic FrameworkTests"
+            ReferencedContainer = "container:Monolith.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

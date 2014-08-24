@@ -80,14 +80,6 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>706C4709-706F-4F43-99A8-EE89486AEC0D</string>
-			<key>IDESourceControlWCCName</key>
-			<string>CocoaSQLite</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>FD55AFA91F3CC977FF03288DC234AB1C17693E11</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CocoaSQLite</string>
@@ -96,7 +88,15 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
+			<string>706C4709-706F-4F43-99A8-EE89486AEC0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaSQLite</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
 		</dict>
@@ -104,7 +104,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8BD82A05ACFAF1B466F6CEF6751425E73E275F81</string>
+			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
 		</dict>
