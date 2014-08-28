@@ -5,20 +5,20 @@ Hoon H.
 
 
 
+The "Monolith" is name of my all-in-one style framework code 
+collection. This is a huge monolithic, multi-platform, multi-
+language code collection, and intended to provide all the code
+by single link work. Platform, language specific code will be
+activated automatically by compiling context, then you don't
+need to worry about anything.
 
-
-This is a brave trial to make a monolith repository for all of
-my reusable code.
-
-This source tree cares only one thing. Version consistency. 
-This doesn't care anything else. Total size of this source 
-code will grow large as like GBs, and total build time will
-take hours...
-
-Anyway for your convenience, each component libraries are 
-currently separated in different repositories. You can 
-composite them to build your own *llight-weight* version
-compositions.
+Main reason to make this framework is to reduce efforts to link
+multiple small libraries, and managing dependencies between 
+them. Anyway, each libraries are intentionally separated and 
+still can be linked one-by-one. Major benefit of this framework
+is quick-starting and convenience, and I think you eventually
+switch to link to multiple small libraries when the project 
+matures to optimize building process.
 
 
 
@@ -26,7 +26,7 @@ compositions.
 
 How to Build
 ------------
-Select `Library - OSX Dynamic Framework` scheme and build.
+Select `Monolith - OSX Dynamic Framework` scheme and build.
 All Library targets are depending on several script and programs
 to place header files correctly, then do not modify build passes
 without understanding it.
@@ -60,3 +60,15 @@ Note
 Do not place any large binary. Currently I have no good idea 
 how to handle those large binaries. Then, prebuilt LLDB library
 has been excluded.
+
+
+
+
+
+
+
+
+
+
+
+

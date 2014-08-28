@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453E2DB919AA2C9B007AB50D /* FoundationExtras.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45D5135719A2654600745D1E /* FoundationExtras.framework */; };
+		453E2DBA19AA2CAB007AB50D /* AppKitSanitizer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45D5131719A2654600745D1E /* AppKitSanitizer.framework */; };
 		459C6E4E19A26D560045550A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4D19A26D560045550A /* libsqlite3.dylib */; };
 		459C6E5019A26DA80045550A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E4F19A26DA80045550A /* libc++.dylib */; };
 		459C6E5419A26DDE0045550A /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 459C6E5219A26DDE0045550A /* libc++abi.dylib */; };
@@ -59,6 +61,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 4545E7DC19A3230B00B6C0C2;
 			remoteInfo = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester";
+		};
+		455BE42C19AE6AE100BE6D11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45D512F219A264B200745D1E /* FoundationExtras.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45E6B61C19AC79D70024A3DD;
+			remoteInfo = "Tests - FoundationExtras - iOS - Static Library";
 		};
 		45CE90F619A35070003CBD4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -243,6 +252,20 @@
 			remoteInfo = "Library - OSX Static Library";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		453E2D9E19AA2C66007AB50D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				453E2DB919AA2C9B007AB50D /* FoundationExtras.framework in CopyFiles */,
+				453E2DBA19AA2CAB007AB50D /* AppKitSanitizer.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4545E78F19A3215F00B6C0C2 /* HierarchicalHeaderCopier.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HierarchicalHeaderCopier.xcodeproj; path = ../../Tools/HierarchicalHeaderCopier/HierarchicalHeaderCopier.xcodeproj; sourceTree = "<group>"; };
@@ -429,6 +452,7 @@
 			children = (
 				45D5135719A2654600745D1E /* FoundationExtras.framework */,
 				45D5135919A2654600745D1E /* libFoundationExtras.a */,
+				455BE42D19AE6AE100BE6D11 /* Tests - FoundationExtras - iOS - Static Library.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -580,6 +604,7 @@
 				45FA7ECE19A25C5A00E047F6 /* Resources */,
 				4545B29519A4F3BB00BA41EF /* ShellScript */,
 				45A9FDCE19A75DEB00D7147F /* Headers */,
+				453E2D9E19AA2C66007AB50D /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -609,9 +634,9 @@
 			productReference = 45FA7EE719A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */ = {
+		45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Library */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static Monolith" */;
+			buildConfigurationList = 45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static Library" */;
 			buildPhases = (
 				45FA7EFC19A25C7700E047F6 /* Sources */,
 				45FA7EFD19A25C7700E047F6 /* Frameworks */,
@@ -622,7 +647,7 @@
 			dependencies = (
 				4545E7B219A3218100B6C0C2 /* PBXTargetDependency */,
 			);
-			name = "Monolith - OSX Static Monolith";
+			name = "Monolith - OSX Static Library";
 			productName = "Library - OSX Static Library";
 			productReference = 45FA7F0019A25C7700E047F6 /* libMonolith.a */;
 			productType = "com.apple.product-type.library.static";
@@ -709,7 +734,7 @@
 			targets = (
 				45FA7ECF19A25C5A00E047F6 /* Monolith - OSX Dynamic Framework */,
 				45FA7EE619A25C5A00E047F6 /* Monolith - OSX Dynamic FrameworkTests */,
-				45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */,
+				45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Library */,
 				45FA7F0B19A25C7700E047F6 /* Monolith - OSX Static MonolithTests */,
 			);
 		};
@@ -728,6 +753,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "HierarchicalHeaderCopier - OSX - Command Line Executable - Running Tester";
 			remoteRef = 4545E7FA19A32D6300B6C0C2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		455BE42D19AE6AE100BE6D11 /* Tests - FoundationExtras - iOS - Static Library.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Tests - FoundationExtras - iOS - Static Library.xctest";
+			remoteRef = 455BE42C19AE6AE100BE6D11 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		45CE90F719A35070003CBD4E /* CommonStuffsForC++.framework */ = {
@@ -1000,7 +1032,7 @@
 		};
 		4545E7B419A321A300B6C0C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */;
+			target = 45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Library */;
 			targetProxy = 4545E7B319A321A300B6C0C2 /* PBXContainerItemProxy */;
 		};
 		45FA7EEC19A25C5A00E047F6 /* PBXTargetDependency */ = {
@@ -1010,7 +1042,7 @@
 		};
 		45FA7F1019A25C7700E047F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Monolith */;
+			target = 45FA7EFF19A25C7700E047F6 /* Monolith - OSX Static Library */;
 			targetProxy = 45FA7F0F19A25C7700E047F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1441,7 +1473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static Monolith" */ = {
+		45FA7F1A19A25C7700E047F6 /* Build configuration list for PBXNativeTarget "Monolith - OSX Static Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FA7F1B19A25C7700E047F6 /* Debug */,

@@ -14,8 +14,6 @@
 		<string>https://github.com/Eonil/Aliens</string>
 		<key>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</key>
 		<string>https://github.com/Eonil/Common</string>
-		<key>6D499A97-137C-4265-ACD0-124A52AF4A11</key>
-		<string>https://github.com/Eonil/CommonRealtimeGameAlgorithms</string>
 		<key>706C4709-706F-4F43-99A8-EE89486AEC0D</key>
 		<string>https://github.com/Eonil/CocoaSQLite</string>
 		<key>70D3BFBACC9839B0DA4D7015588590F24B495DAC</key>
@@ -37,8 +35,6 @@
 		<string>../../Implementation/Components/Aliens</string>
 		<key>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</key>
 		<string>../../../Components/Common</string>
-		<key>6D499A97-137C-4265-ACD0-124A52AF4A11</key>
-		<string>../../../Components/CommonRealtimeGameAlgorithms</string>
 		<key>706C4709-706F-4F43-99A8-EE89486AEC0D</key>
 		<string>../../../Components/CocoaSQLite</string>
 		<key>70D3BFBACC9839B0DA4D7015588590F24B495DAC</key>
@@ -107,14 +103,6 @@
 			<string>1A821027-4974-44D0-B7F9-5CD4D36B7E3B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Common</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6D499A97-137C-4265-ACD0-124A52AF4A11</string>
-			<key>IDESourceControlWCCName</key>
-			<string>CommonRealtimeGameAlgorithms</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
