@@ -1,3 +1,17 @@
+
+
+
+
+This library has been suspended and likely to be disposed soon.
+Replaced by [`Monolith`](https://github.com/Eonil/Monolith). 
+See there for further updates. Source code will be updated 
+gradually.
+
+
+
+
+
+
 Eonil Library - The "Monolith"
 ==============================
 2014/08/19
